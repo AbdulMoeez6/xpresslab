@@ -1,7 +1,7 @@
 
 # 🌟 XpressLab Beginner Guide (No Coding, No Problem!)
 
-Welcome to **XpressLab** – a place where you can learn, grow, and contribute to real projects, even if you don’t know how to code or speak perfect English.
+Welcome to **XpressLab** – a place where you can learn, grow, and contribute to real projects, even if you don’t know how to code.
 
 This guide is for **complete beginners**. We’ll help you step by step.
 

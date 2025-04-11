@@ -35,12 +35,29 @@ Before we begin:
 
 Click any link below to find a project that needs help:
 
+Certainly! Below is the updated Markdown table including **all the organizations** you listed, formatted just like the one you showed:
+
+---
+
 | Organization | What They Do | Link |
 |--------------|--------------|------|
-| World Enterprise | Websites and Marketing | [Open](https://github.com/worldenterprisegroup?tab=repositories) |
-| Note Hive | Writing, Guides, Handbooks | [Open](https://github.com/Note-Hive?tab=repositories) |
-| United Home | Home & Lifestyle Projects | [Open](https://github.com/United-Home?tab=repositories) |
-| Tao Learning | Education Projects | [Open](https://github.com/TaoLearning?tab=repositories) |
+| World Enterprise | Graphics, Copywriting, & Website Design for Startups | [Open](https://github.com/worldenterprisegroup?tab=repositories) |
+| Note Hive | Documentation, Grants, Guides, Handbooks, and Writing Projects | [Open](https://github.com/Note-Hive?tab=repositories) |
+| United Home | Home, Lifestyle, and Architectural Projects | [Open](https://github.com/United-Home?tab=repositories) |
+| HardMagic | Design, Ideation, Storytelling, Branding, Visionary, Futurism, Creative Direction | [Open](https://github.com/HardMagic?tab=repositories) |
+| Tao Learning Institute | Non-Profit Organization focused on STEAM Literacy, Learning, & Development | [Open](https://github.com/TaoLearning?tab=repositories) |
+| INSTAR Lab Inc | Scientific Research Institute with projects in Quantum Research, Artificial Intelligence, and the Future of Work | [Open](https://github.com/INSTARLab?tab=repositories) |
+| Source Now | Data Science, Data Analysis, Forensics, Data Research | [Open](https://github.com/Source-Now?tab=repositories) |
+| SILK Corp | Public Benefit Corporation focused on Women Empowerment, DE&I, Homesteading, Health & Wellness Industry | [Open](https://github.com/WorldEnterpriseGroup?tab=repositories&q=silkcorp&type=&language=&sort=) |
+| SILK Corp Guide | SILK Corp Franchise Model | [Open](https://github.com/NoteHive/Silk-Corp-Guide) |
+| Curiosity Corp | Nonprofit organization dedicated to advancing innovative education and workforce training through dynamic, experiential learning | [Open](https://github.com/Curiosity-Corp) |
+```
+
+---
+
+You can now paste this table directly into your Markdown file anywhere you'd like to display the list of organizations in a clean and readable format.
+
+Let me know if you want this sorted alphabetically or grouped by category!
 
 
 ---

@@ -42,15 +42,39 @@ Click any link below to find a project that needs help:
 | United Home | Home & Lifestyle Projects | [Open](https://github.com/United-Home?tab=repositories) |
 | Tao Learning | Education Projects | [Open](https://github.com/TaoLearning?tab=repositories) |
 
-Look for a project using **"Lorem Ipsum"** text. That’s placeholder text that needs to be replaced.
+
+---
+## 🍴 Step 3: Fork the Project
+
+When you find a project you want to work on , you need to make your own copy of it. This is called **"forking"** the project.
+
+Here’s how to do it:
 
 ---
 
-## 🍴 Step 3: Fork the Project
+### 📝 Steps to Fork:
 
-1. Go to the top right of the project page on GitHub.
+1. Go to the top-right corner of the project’s GitHub page.
 2. Click the **Fork** button.
-3. Now you have your own copy to work on.
+
+---
+
+### 🛠️ Name Your Fork:
+
+- GitHub will ask you to **choose a name** for your forked project.
+- If you have **never forked this project before**, you can leave the default name.
+- If you **already have a fork with the same name**, you must **change the name** (for example: `projectname-v2`).
+
+---
+
+### 🌿 Select the Correct Branch (`gh-pages`):
+
+- Before creating the fork, look for a dropdown that lets you **choose the branch to fork**.
+- Always select the **`gh-pages`** branch (not `main` or any other branch).
+  - This is the branch where the website files usually live.
+- If you don’t see a branch option, don’t worry — you can switch to `gh-pages` after the fork is created.
+- After naming and selecting the branch (`gh-pages`), click **Create Fork**.
+- GitHub will now make a copy of the project under your account.
 
 ---
 

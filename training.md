@@ -107,15 +107,79 @@ In the GitHub online editor (or VS Code):
 
 ---
 
-## 🔁 Step 8: Submit a Pull Request (PR)
-
-1. Go to your forked project on GitHub
-2. Click **Pull Request**
-3. Click **New Pull Request**
-4. Write what you changed and why
-5. Click **Submit**
+Sure! Here's the **updated Step 8** written in full **Markdown format**, ready to copy and paste into your `beginner-guide.md` or `README.md` file.
 
 ---
+## 🔁 Step 8: Submit a Pull Request (PR)
+
+Now it’s time to send your changes back to the main project so they can be reviewed and possibly added.
+
+Follow these steps carefully:
+
+---
+
+### ✅ What is a Pull Request (PR)?
+
+A **Pull Request** is how you ask the original project owners to include the changes you made in your copy (fork) of the project.
+
+---
+
+### 🧭 How to Submit Your Pull Request:
+
+1. Go to your forked project on **GitHub** (your version of the project).
+2. On the top of the page, click the **"Pull Requests"** tab.
+3. Click the green button that says **"New Pull Request."**
+
+---
+
+### 🔁 Choose the Right Branches:
+
+When creating a pull request, GitHub asks you to **compare two branches**:
+
+| Option | What to Choose |
+|--------|----------------|
+| **Base branch (main project)** | Choose `gh-pages` (this is where your changes will go) |
+| **Head branch (your fork)** | Choose the branch where you made the changes (usually `gh-pages` if you followed this guide) |
+
+> ⚠️ **Important:**  
+> Always make sure that the **base branch is `gh-pages`**.  
+> If you select `main` or another branch by mistake, the project owner may not accept your changes.
+
+---
+
+### 📝 Write a Short Description:
+
+In the message box, explain what you changed. Keep it short and clear. For example:
+
+```
+✅ Replaced Lorem Ipsum text on the homepage with real marketing content.
+🚀 Edited the "about.html" file and added friendly, clear text.
+```
+
+---
+
+### 📤 Submit!
+
+Click the **"Create Pull Request"** button.
+
+🎉 That’s it! You’ve just sent your changes for review.
+
+---
+
+### 🔍 What Happens Next?
+
+- The project team will review your changes.
+- They may approve it, ask for changes, or give you helpful feedback.
+- Once approved, your changes become part of the live project!
+
+---
+
+### 💡 Tip:
+
+If you're ever unsure which branch to choose, just remember:
+
+- **Base branch** → `gh-pages` (this is the final destination)
+- **Head branch** → your own branch (where you made the edits)
 
 ## ✅ You Did It!
 

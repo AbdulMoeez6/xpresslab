@@ -210,6 +210,27 @@ graph TD
 
 ---
 
+
+## 📖 Learn Git & GitHub (Free Courses)
+
+Want to build your skills? Here are some beginner-friendly, step-by-step courses and tutorials:
+
+| Title & Platform | Description | Link |
+|------------------|-------------|------|
+| **Introduction to GitHub** (GitHub Skills) | Hands-on, interactive course made by GitHub. Learn how to use repositories, branches, commits, and pull requests. | [Start Course](https://skills.github.com/) |
+| **GitHub for Beginners** (freeCodeCamp YouTube) | Full video course for total beginners. Perfect for understanding repositories, commits, branches, and pull requests. | [Watch on YouTube](https://www.youtube.com/watch?v=RGOj5yH7evk) |
+| **Git Started with GitHub** (Codecademy) | Interactive, beginner-friendly modules to help you understand Git and GitHub basics. | [Try Codecademy](https://www.codecademy.com/learn/learn-git) |
+| **Git and GitHub for Beginners** (Coursera, Free Audit) | University of California, Davis: Basic course, free if you choose "Audit". | [View on Coursera](https://www.coursera.org/learn/introduction-git-github) |
+| **Hello World: GitHub Guide** (GitHub Docs) | Written guide with screenshots for your first GitHub project. | [Read Guide](https://docs.github.com/en/get-started/quickstart/hello-world) |
+
+---
+
+You can also explore the [GitHub Learning Lab](https://lab.github.com/) for more hands-on tutorials.
+
+
+---
+
+
 ## 💡 Final Tip
 
 Don’t be afraid to ask questions. You are learning real skills and helping real projects.

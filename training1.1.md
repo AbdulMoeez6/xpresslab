@@ -72,19 +72,28 @@ You will need to **download Git** and **VS Code** if you haven’t already:
 - [Download Git](https://git-scm.com/downloads)
 - [Download VS Code](https://code.visualstudio.com)
 
+
 ### How to Get the Project on Your Computer
 
 1. Go to **your forked project** on GitHub.
 2. Click the green **Code** button, then copy the **HTTPS** link.
 3. Open **VS Code**.
-4. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Mac).
-5. Type **Git: Clone** and select it.
-6. **Paste** the link you copied.
-7. Choose a folder on your computer where you want the project to be downloaded.
-8. When done, **VS Code will ask if you want to open the project**. Click **Open**.
+4. Open the **Terminal** in VS Code by pressing <kbd>Ctrl</kbd>+<kbd>`</kbd> (backtick key).
+5. In the terminal, type the following command:
 
-> **Tip:**  
-> This step uses only one Git command (`git clone`), and VS Code helps with the rest!
+   ```bash
+   git clone <paste-your-copied-https-link-here>
+   ```
+
+   Example:
+   ```bash
+   git clone https://github.com/your-username/project-name.git
+   ```
+
+6. Press **Enter** to run the command. The project will be downloaded to your computer.
+7. Once the cloning is complete, open the cloned folder in VS Code:
+   - You can click **File > Open Folder**, then select the cloned project folder.
+   - Or, if prompted, click **"Open"** when VS Code asks if you want to open the cloned project.
 
 ---
 

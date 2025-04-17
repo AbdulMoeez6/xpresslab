@@ -37,7 +37,7 @@ While Azure doesn't have a specific "WAF Certification," understanding its princ
 
 *   **Azure Well-Architected Framework Documentation:** [https://learn.microsoft.com/en-us/azure/architecture/framework/](https://learn.microsoft.com/en-us/azure/architecture/framework/)
 *   **Microsoft Learn Home:** [https://learn.microsoft.com/](https://learn.microsoft.com/)
-
+*   **Microsoft Learn Home:** [https://learn.microsoft.com/en-us/training/modules/azure-well-architected-introduction/](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-introduction/)
 ---
 
 ## 2. Amazon Web Services (AWS) & The Well-Architected Framework
@@ -74,7 +74,7 @@ AWS places strong emphasis on its WAF. While not a standalone *exam certificatio
 *   **AWS Well-Architected Framework Home (Documentation & Whitepapers):** [https://aws.amazon.com/architecture/well-architected/](https://aws.amazon.com/architecture/well-architected/)
 *   **AWS Well-Architected Labs (Hands-on Practice):** [https://wellarchitectedlabs.com/](https://wellarchitectedlabs.com/) (Free, practical exercises)
 *   **AWS Certification Home:** [https://aws.amazon.com/certification/](https://aws.amazon.com/certification/) (For SAA/SAP exam details)
-
+*   **AWS Certification:** [https://explore.skillbuilder.aws/learn/courses/21868/aws-flash-well-architected-for-enterprises](https://explore.skillbuilder.aws/learn/courses/21868/aws-flash-well-architected-for-enterprises)
 ---
 
 ## 3. Additional Free WAF Training Resources (Certificates/Badges Vary)

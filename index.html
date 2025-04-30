@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <!-- Existing CSS -->
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
@@ -44,7 +45,6 @@
         <img class="preloader__image" width="60" src="assets/images/loader.png" alt="Loading XpressLab" />
     </div>
 
-    <!-- /.preloader -->
     <div class="page-wrapper">
 
         <header class="main-header main-header--one  clearfix">
@@ -56,7 +56,6 @@
                                 <a href="index.html"><img src="assets/images/logo/xpresslab.svg" alt="XpressLab Logo - Experiential Learning Lab" style="max-height: 50px;" /></a>
                             </div>
                         </div>
-
                         <div class="main-header--one__top-right clearfix">
                             <ul class="main-header--one__top-social-link list-unstyled clearfix">
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -64,35 +63,22 @@
                                 <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
                                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                             </ul>
-
                             <div class="main-header--one__top-contact-info clearfix">
                                 <ul class="main-header--one__top-contact-info-list list-unstyled">
                                     <li class="main-header--one__top-contact-info-list-item">
-                                        <div class="icon">
-                                            <span class="icon-phone-call-1"></span>
-                                        </div>
-                                        <div class="text">
-                                            <h6>Call Support</h6>
-                                            <p><a href="tel:9292292917">929-229-2917</a></p>
-                                        </div>
+                                        <div class="icon"><span class="icon-phone-call-1"></span></div>
+                                        <div class="text"><h6>Call Support</h6><p><a href="tel:9292292917">929-229-2917</a></p></div>
                                     </li>
                                     <li class="main-header--one__top-contact-info-list-item">
-                                        <div class="icon">
-                                            <span class="icon-message"></span>
-                                        </div>
-                                        <div class="text">
-                                            <h6>Email Us</h6>
-                                            <p><a href="mailto:needhelp@xpresslab.org">needhelp@xpresslab.org</a></p>
-                                        </div>
+                                        <div class="icon"><span class="icon-message"></span></div>
+                                        <div class="text"><h6>Email Us</h6><p><a href="mailto:needhelp@xpresslab.org">needhelp@xpresslab.org</a></p></div>
                                     </li>
                                 </ul>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
-
 
             <div class="main-header-one__bottom clearfix">
                 <div class="container">
@@ -100,52 +86,35 @@
                         <nav class="main-menu main-menu--1">
                             <div class="main-menu__inner">
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-
                                 <div class="left">
                                     <ul class="main-menu__list">
-                                        <li class="dropdown current">
-                                            <!-- <a href="index.html">Home</a> -->
-                                            <!-- Keep dropdown structure if needed for future expansion, but simplify text for now -->
-                                            <!--
-                                            <ul>
-                                                <li><a href="index.html">Home One</a></li>
-                                                <li><a href="index-2.html">Home Two</a></li>
-                                                <li class="dropdown">
-                                                    <a href="#">Header Styles</a>
-                                                    <ul>
-                                                        <li><a href="index.html">Header One</a></li>
-                                                        <li><a href="index-2.html">Header Two</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                            -->
-                                        </li>
+                                        <!-- Home link is present only on index.html and marked current -->
+                                        <li class="current"><a href="index.html">Home</a></li>
                                         <li><a href="about.html">About</a></li>
                                         <li class="dropdown">
                                             <a href="#">Contribute</a>
                                             <ul>
-                                                <li><a href="courses.html">Projects</a></li>
-                                                <li><a href="course-details.html">Project Guide</a></li>
+                                                <li><a href="projects.html">Projects</a></li> <!-- Updated link -->
+                                                <li><a href="project-guide.html">Project Guide</a></li> <!-- Updated link -->
                                             </ul>
                                         </li>
                                         <li class="dropdown">
                                             <a href="#"> Learn</a>
                                             <ul>
-                                                <li><a href="teachers-1.html">Training</a></li>
-                                                <li><a href="teachers-2.html">Resources</a></li>
+                                                <li><a href="trainings.html">Training</a></li> <!-- Updated link -->
+                                                <li><a href="resources.html">Resources</a></li> <!-- Updated link -->
                                             </ul>
                                         </li>
                                         <li class="dropdown">
                                             <a href="#">Community</a>
                                             <ul>
                                                 <li><a href="news.html">Updates & News</a></li>
-                                                <li><a href="news-details.html">Success Stories</a></li>
+                                                <li><a href="stories.html">Success Stories</a></li> <!-- Updated link -->
                                             </ul>
                                         </li>
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
-
                                 <div class="right">
                                     <div class="main-menu__right">
                                         <div class="main-menu__right-login-register">
@@ -155,33 +124,23 @@
                                             </ul>
                                         </div>
                                         <div class="main-menu__right-cart-search">
-                                            <!-- Cart might be irrelevant, consider removing later if structure allows, for now keep -->
-                                            <div class="main-menu__right-cart-box">
-                                                <a href="#"><span class="icon-shopping-cart"></span></a>
-                                            </div>
-                                            <div class="main-menu__right-search-box">
-                                                <a href="#" class="thm-btn search-toggler">Search Projects</a>
-                                            </div>
+                                            <div class="main-menu__right-cart-box"><a href="#"><span class="icon-shopping-cart"></span></a></div>
+                                            <div class="main-menu__right-search-box"><a href="#" class="thm-btn search-toggler">Search Projects</a></div>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </nav>
-
                     </div>
                 </div>
             </div>
-
         </header>
-
 
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content">
-
+                <!-- Sticky header content -->
             </div><!-- /.sticky-header__content -->
         </div><!-- /.stricky-header -->
-
 
         <section class="main-slider main-slider-one">
             <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true, "effect": "fade", "pagination": {
@@ -196,568 +155,256 @@
         "autoplay": {
         "delay": 7000
         }}'>
-
                 <div class="swiper-wrapper">
                     <!--Start Single Swiper Slide-->
                     <div class="swiper-slide">
                         <div class="shape1"><img src="assets/images/shapes/slider-v1-shape1.png" alt="" /></div>
                         <div class="shape2"><img src="assets/images/shapes/slider-v1-shape2.png" alt="" /></div>
-                        <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);"></div>
-                        <!-- /.image-layer -->
+                        <div class="image-layer" style="background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);"></div>
                         <div class="container">
                             <div class="main-slider__content">
-                                <div class="main-slider__content-icon-one">
-                                    <span class="icon-lamp"></span>
-                                </div>
-                                <div class="main-slider__content-icon-two">
-                                    <span class="icon-human-resources"></span>
-                                </div>
-                                <div class="main-slider-one__round-box">
-                                    <div class="main-slider-one__round-box-inner">
-                                        <p>Real-World <br>Projects</p>
-                                        <div class="icon">
-                                            <i class="fas fa-sort-up"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-slider__content-tagline">
-                                    <h2>Ready to Contribute?</h2>
-                                </div>
+                                <div class="main-slider__content-icon-one"><span class="icon-lamp"></span></div>
+                                <div class="main-slider__content-icon-two"><span class="icon-human-resources"></span></div>
+                                <div class="main-slider-one__round-box"><div class="main-slider-one__round-box-inner"><p>Real-World <br>Projects</p><div class="icon"><i class="fas fa-sort-up"></i></div></div></div>
+                                <div class="main-slider__content-tagline"><h2>Ready to Contribute?</h2></div>
                                 <h2 class="main-slider__content-title">Gain Experience <br>in Open Source</h2>
-                                <p class="main-slider__content-text">Start contributing to impactful GitHub projects and
-                                    <br> build your developer portfolio with XpressLab.</p>
-                                <div class="main-slider__content-btn">
-                                    <a href="courses.html" class="thm-btn">Find Your First Issue</a>
-                                </div>
-                                <div class="main-slider-one__img">
-                                    <img src="assets/images/backgrounds/main-slider-v1-img.png" alt="Developer contributing to open source" />
-                                </div>
+                                <p class="main-slider__content-text">Start contributing to impactful GitHub projects and<br> build your developer portfolio with XpressLab.</p>
+                                <div class="main-slider__content-btn"><a href="projects.html" class="thm-btn">Find Your First Issue</a></div> <!-- Updated Link -->
+                                <div class="main-slider-one__img"><img src="assets/images/backgrounds/main-slider-v1-img.png" alt="Developer contributing to open source" /></div>
                             </div>
                         </div>
                     </div>
                     <!--End Single Swiper Slide-->
-
                     <!--Start Single Swiper Slide-->
                     <div class="swiper-slide">
                         <div class="shape1"><img src="assets/images/shapes/slider-v1-shape1.png" alt="" /></div>
                         <div class="shape2"><img src="assets/images/shapes/slider-v1-shape2.png" alt="" /></div>
-                        <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);"></div>
-                        <!-- /.image-layer -->
+                        <div class="image-layer" style="background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);"></div>
                         <div class="container">
                             <div class="main-slider__content">
-                                <div class="main-slider__content-icon-one">
-                                    <span class="icon-lamp"></span>
-                                </div>
-                                <div class="main-slider__content-icon-two">
-                                    <span class="icon-human-resources"></span>
-                                </div>
-                                <div class="main-slider-one__round-box">
-                                    <div class="main-slider-one__round-box-inner">
-                                        <p>Career <br>Growth</p>
-                                        <div class="icon">
-                                            <i class="fas fa-sort-up"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-slider__content-tagline">
-                                    <h2>Level Up Your Skills?</h2>
-                                </div>
+                                <div class="main-slider__content-icon-one"><span class="icon-lamp"></span></div>
+                                <div class="main-slider__content-icon-two"><span class="icon-human-resources"></span></div>
+                                <div class="main-slider-one__round-box"><div class="main-slider-one__round-box-inner"><p>Career <br>Growth</p><div class="icon"><i class="fas fa-sort-up"></i></div></div></div>
+                                <div class="main-slider__content-tagline"><h2>Level Up Your Skills?</h2></div>
                                 <h2 class="main-slider__content-title">Accelerate Your <br>Tech Career</h2>
-                                <p class="main-slider__content-text">Develop practical skills, collaborate with experts, and
-                                    <br> showcase your abilities to potential employers.</p>
-                                <div class="main-slider__content-btn">
-                                    <a href="about.html" class="thm-btn">Learn How It Works</a>
-                                </div>
-                                <div class="main-slider-one__img">
-                                    <img src="assets/images/backgrounds/main-slider-v1-img.png" alt="Accelerate your tech career with XpressLab" />
-                                </div>
+                                <p class="main-slider__content-text">Develop practical skills, collaborate with experts, and<br> showcase your abilities to potential employers.</p>
+                                <div class="main-slider__content-btn"><a href="about.html" class="thm-btn">Learn How It Works</a></div>
+                                <div class="main-slider-one__img"><img src="assets/images/backgrounds/main-slider-v1-img.png" alt="Accelerate your tech career with XpressLab" /></div>
                             </div>
                         </div>
                     </div>
                     <!--End Single Swiper Slide-->
-
                     <!--Start Single Swiper Slide-->
                     <div class="swiper-slide">
                         <div class="shape1"><img src="assets/images/shapes/slider-v1-shape1.png" alt="" /></div>
                         <div class="shape2"><img src="assets/images/shapes/slider-v1-shape2.png" alt="" /></div>
-                        <div class="image-layer"
-                            style="background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);"></div>
-                        <!-- /.image-layer -->
+                        <div class="image-layer" style="background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);"></div>
                         <div class="container">
                             <div class="main-slider__content">
-                                <div class="main-slider__content-icon-one">
-                                    <span class="icon-lamp"></span>
-                                </div>
-                                <div class="main-slider__content-icon-two">
-                                    <span class="icon-human-resources"></span>
-                                </div>
-                                <div class="main-slider-one__round-box">
-                                    <div class="main-slider-one__round-box-inner">
-                                        <p>Community <br>Support</p>
-                                        <div class="icon">
-                                            <i class="fas fa-sort-up"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="main-slider__content-tagline">
-                                    <h2>Join the Community</h2>
-                                </div>
+                                <div class="main-slider__content-icon-one"><span class="icon-lamp"></span></div>
+                                <div class="main-slider__content-icon-two"><span class="icon-human-resources"></span></div>
+                                <div class="main-slider-one__round-box"><div class="main-slider-one__round-box-inner"><p>Community <br>Support</p><div class="icon"><i class="fas fa-sort-up"></i></div></div></div>
+                                <div class="main-slider__content-tagline"><h2>Join the Community</h2></div>
                                 <h2 class="main-slider__content-title">Connect & <br>Collaborate</h2>
-                                <p class="main-slider__content-text">Engage with fellow contributors, learn together,
-                                    <br> and make a meaningful impact on open source.</p>
-                                <div class="main-slider__content-btn">
-                                    <a href="#" class="thm-btn">Explore Community</a>
-                                </div>
-                                <div class="main-slider-one__img">
-                                    <img src="assets/images/backgrounds/main-slider-v1-img.png" alt="Connect and collaborate with the XpressLab community" />
-                                </div>
+                                <p class="main-slider__content-text">Engage with fellow contributors, learn together,<br> and make a meaningful impact on open source.</p>
+                                <div class="main-slider__content-btn"><a href="news.html" class="thm-btn">Explore Community</a></div> <!-- Updated link -->
+                                <div class="main-slider-one__img"><img src="assets/images/backgrounds/main-slider-v1-img.png" alt="Connect and collaborate with the XpressLab community" /></div>
                             </div>
                         </div>
                     </div>
                     <!--End Single Swiper Slide-->
                 </div>
-
-                <!-- If we need navigation buttons -->
                 <div class="swiper-pagination" id="main-slider-pagination"></div>
                 <div class="main-slider__nav">
-                    <div class="swiper-button-prev" id="main-slider__swiper-button-next">
-                        <span class="icon-left"></span>
-                    </div>
-                    <div class="swiper-button-next" id="main-slider__swiper-button-prev">
-                        <span class="icon-right"></span>
-                    </div>
+                    <div class="swiper-button-prev" id="main-slider__swiper-button-next"><span class="icon-left"></span></div>
+                    <div class="swiper-button-next" id="main-slider__swiper-button-prev"><span class="icon-right"></span></div>
                 </div>
-
             </div>
         </section>
-
-
-
-
-
-
-
 
         <!--Features One Start-->
         <section class="features-one">
             <div class="container">
                 <div class="row">
-                    <!--Start Single Features One-->
                     <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="features-one__single">
-                            <div class="features-one__single-icon">
-                                <span class="icon-empowerment"></span> <!-- Icon representing contribution/code -->
-                            </div>
-                            <div class="features-one__single-text">
-                                <h4><a href="courses.html">Contribute to GitHub</a></h4>
-                                <p>on real-world projects</p>
-                            </div>
+                            <div class="features-one__single-icon"><span class="icon-empowerment"></span></div>
+                            <div class="features-one__single-text"><h4><a href="projects.html">Contribute to GitHub</a></h4><p>on real-world projects</p></div> <!-- Updated link -->
                         </div>
                     </div>
-                    <!--End Single Features One-->
-
-                    <!--Start Single Features One-->
                     <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="features-one__single">
-                            <div class="features-one__single-icon">
-                                <span class="icon-human-resources-1"></span> <!-- Icon representing guidance/finding -->
-                            </div>
-                            <div class="features-one__single-text">
-                                <h4><a href="courses.html">Find Good First Issues</a></h4>
-                                <p>curated for beginners</p>
-                            </div>
+                            <div class="features-one__single-icon"><span class="icon-human-resources-1"></span></div>
+                            <div class="features-one__single-text"><h4><a href="projects.html">Find Good First Issues</a></h4><p>curated for beginners</p></div> <!-- Updated link -->
                         </div>
                     </div>
-                    <!--End Single Features One-->
-
-                    <!--Start Single Features One-->
                     <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div class="features-one__single">
-                            <div class="features-one__single-icon">
-                                <span class="icon-recruitment"></span> <!-- Icon representing growth/career -->
-                            </div>
-                            <div class="features-one__single-text">
-                                <h4><a href="about.html">Advance Your Career</a></h4>
-                                <p>with practical experience</p>
-                            </div>
+                            <div class="features-one__single-icon"><span class="icon-recruitment"></span></div>
+                            <div class="features-one__single-text"><h4><a href="about.html">Advance Your Career</a></h4><p>with practical experience</p></div>
                         </div>
                     </div>
-                    <!--End Single Features One-->
                 </div>
             </div>
         </section>
         <!--Features One End-->
 
-
-
         <!--About One Start-->
         <section class="about-one clearfix">
             <div class="container">
                 <div class="row">
-                    <!-- Start About One Left-->
                     <div class="col-xl-6">
                         <div class="about-one__left">
                             <ul class="about-one__left-img-box list-unstyled clearfix">
-                                <li class="about-one__left-single">
-                                    <div class="about-one__left-img1">
-                                        <img src="assets/images/about/about-v1-img1.jpg" alt="Collaborative coding session" />
-                                    </div>
-                                </li>
-                                <li class="about-one__left-single">
-                                    <div class="about-one__left-img2">
-                                        <img src="assets/images/about/about-v1-img2.jpg" alt="Developer working on laptop" />
-                                    </div>
-                                </li>
+                                <li class="about-one__left-single"><div class="about-one__left-img1"><img src="assets/images/about/about-v1-img1.jpg" alt="Collaborative coding session" /></div></li>
+                                <li class="about-one__left-single"><div class="about-one__left-img2"><img src="assets/images/about/about-v1-img2.jpg" alt="Developer working on laptop" /></div></li>
                             </ul>
                             <div class="about-one__left-overlay">
-                                <div class="icon">
-                                    <span class="icon-relationship"></span>
-                                </div>
-                                <div class="title">
-                                    <h6>Trusted by<br><span class="odometer" data-count="8800">00</span> contributors</h6>
-                                </div>
+                                <div class="icon"><span class="icon-relationship"></span></div>
+                                <div class="title"><h6>Trusted by<br><span class="odometer" data-count="8800">00</span> contributors</h6></div>
                             </div>
                         </div>
                     </div>
-                    <!-- End About One Left-->
-
-
-                    <!-- Start About One Right-->
                     <div class="col-xl-6">
                         <div class="about-one__right">
-                            <div class="section-title">
-                                <span class="section-title__tagline">About XpressLab</span>
-                                <h2 class="section-title__title">Your Launchpad into <br>Open Source Contribution</h2>
-                            </div>
+                            <div class="section-title"><span class="section-title__tagline">About XpressLab</span><h2 class="section-title__title">Your Launchpad into <br>Open Source Contribution</h2></div>
                             <div class="about-one__right-inner">
                                 <p class="about-one__right-text">XpressLab bridges the gap between learning and doing. We provide a platform to gain practical software development experience by contributing to real open-source projects on GitHub.</p>
                                 <ul class="about-one__right-list list-unstyled">
-                                    <li class="about-one__right-list-item">
-                                        <div class="icon">
-                                            <span class="icon-confirmation"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>Gain hands-on experience with real-world codebases</p>
-                                        </div>
-                                    </li>
-
-                                    <li class="about-one__right-list-item">
-                                        <div class="icon">
-                                            <span class="icon-confirmation"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>Easily discover beginner-friendly contribution opportunities</p>
-                                        </div>
-                                    </li>
-
-                                    <li class="about-one__right-list-item">
-                                        <div class="icon">
-                                            <span class="icon-confirmation"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>Build your portfolio and enhance your career prospects</p>
-                                        </div>
-                                    </li>
+                                    <li class="about-one__right-list-item"><div class="icon"><span class="icon-confirmation"></span></div><div class="text"><p>Gain hands-on experience with real-world codebases</p></div></li>
+                                    <li class="about-one__right-list-item"><div class="icon"><span class="icon-confirmation"></span></div><div class="text"><p>Easily discover beginner-friendly contribution opportunities</p></div></li>
+                                    <li class="about-one__right-list-item"><div class="icon"><span class="icon-confirmation"></span></div><div class="text"><p>Build your portfolio and enhance your career prospects</p></div></li>
                                 </ul>
-
-                                <div class="about-one__btn">
-                                    <a href="about.html" class="thm-btn">Learn More About Us</a>
-                                </div>
+                                <div class="about-one__btn"><a href="about.html" class="thm-btn">Learn More About Us</a></div>
                             </div>
                         </div>
                     </div>
-                    <!-- End About One Right-->
                 </div>
             </div>
         </section>
         <!--About One End-->
 
-
         <!--Courses One Start-->
-        <section class="courses-one">
+        <section class="courses-one"> <!-- Section ID remains courses-one based on original template -->
             <div class="container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline">Start Contributing Now</span>
-                    <h2 class="section-title__title">Featured Opportunities</h2>
-                </div>
+                <div class="section-title text-center"><span class="section-title__tagline">Start Contributing Now</span><h2 class="section-title__title">Featured Opportunities</h2></div>
                 <div class="row">
                     <!--Start Single Courses One-->
                     <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="courses-one__single wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                            <div class="courses-one__single-img">
-                                <img src="assets/images/resources/courses-v1-img1.jpg" alt="Project Image" />
-                                <div class="overlay-text">
-                                    <p>Good First Issue</p>
-                                </div>
-                            </div>
+                            <div class="courses-one__single-img"><img src="assets/images/resources/courses-v1-img1.jpg" alt="Project Image" /><div class="overlay-text"><p>Good First Issue</p></div></div>
                             <div class="courses-one__single-content">
-                                <div class="courses-one__single-content-overlay-img">
-                                    <img src="assets/images/resources/courses-v1-overlay-img1.png" alt="Project Maintainer Avatar" />
-                                </div>
-                                <h6 class="courses-one__single-content-name">Project Maintainer</h6> <!-- Placeholder -->
-                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Contribute to Awesome Project</a></h4>
-                                <div class="courses-one__single-content-review-box">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fab fa-github"></i></li> <!-- Using GitHub icon -->
-                                        <!-- Add more relevant icons or remove stars -->
-                                    </ul>
-                                    <div class="rateing-box">
-                                        <span>(Beginner)</span> <!-- Indicate difficulty -->
-                                    </div>
-                                </div>
-                                <p class="courses-one__single-content-price">Free</p> <!-- Contributions are free -->
-                                <ul class="courses-one__single-content-courses-info list-unstyled">
-                                    <li>Skills: JS, CSS</li>
-                                    <li>Est. Time: 3 Hrs</li>
-                                    <li>Beginner</li>
-                                </ul>
+                                <div class="courses-one__single-content-overlay-img"><img src="assets/images/resources/courses-v1-overlay-img1.png" alt="Project Maintainer Avatar" /></div>
+                                <h6 class="courses-one__single-content-name">Project Maintainer</h6>
+                                <h4 class="courses-one__single-content-title"><a href="project-guide.html">Contribute to Awesome Project</a></h4> <!-- Updated Link -->
+                                <div class="courses-one__single-content-review-box"><ul class="list-unstyled"><li><i class="fab fa-github"></i></li></ul><div class="rateing-box"><span>(Beginner)</span></div></div>
+                                <p class="courses-one__single-content-price">Free</p>
+                                <ul class="courses-one__single-content-courses-info list-unstyled"><li>Skills: JS, CSS</li><li>Est. Time: 3 Hrs</li><li>Beginner</li></ul>
                             </div>
                         </div>
                     </div>
                     <!--End Single Courses One-->
-
+                     <!--Start Single Courses One-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="courses-one__single wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
+                            <div class="courses-one__single-img"><img src="assets/images/resources/courses-v1-img2.jpg" alt="Project Image" /><div class="overlay-text"><p>Documentation</p></div></div>
+                            <div class="courses-one__single-content">
+                                <div class="courses-one__single-content-overlay-img"><img src="assets/images/resources/courses-v1-overlay-img2.png" alt="Project Maintainer Avatar" /></div>
+                                <h6 class="courses-one__single-content-name">Project Maintainer</h6>
+                                <h4 class="courses-one__single-content-title"><a href="project-guide.html">Improve Project Docs</a></h4> <!-- Updated Link -->
+                                <div class="courses-one__single-content-review-box"><ul class="list-unstyled"><li><i class="fab fa-github"></i></li></ul><div class="rateing-box"><span>(Easy)</span></div></div>
+                                <p class="courses-one__single-content-price">Free</p>
+                                <ul class="courses-one__single-content-courses-info list-unstyled"><li>Skills: Markdown</li><li>Est. Time: 1 Hr</li><li>Beginner</li></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Courses One-->
                     <!--Start Single Courses One-->
                     <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="courses-one__single wow fadeInLeft" data-wow-delay="100ms"
-                            data-wow-duration="1000ms">
-                            <div class="courses-one__single-img">
-                                <img src="assets/images/resources/courses-v1-img2.jpg" alt="Project Image" />
-                                <div class="overlay-text">
-                                    <p>Documentation</p>
-                                </div>
-                            </div>
+                        <div class="courses-one__single wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
+                            <div class="courses-one__single-img"><img src="assets/images/resources/courses-v1-img3.jpg" alt="Project Image" /><div class="overlay-text"><p>Bug Fix</p></div></div>
                             <div class="courses-one__single-content">
-                                <div class="courses-one__single-content-overlay-img">
-                                    <img src="assets/images/resources/courses-v1-overlay-img2.png" alt="Project Maintainer Avatar" />
-                                </div>
+                                <div class="courses-one__single-content-overlay-img"><img src="assets/images/resources/courses-v1-overlay-img3.png" alt="Project Maintainer Avatar" /></div>
                                 <h6 class="courses-one__single-content-name">Project Maintainer</h6>
-                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Improve Project Docs</a></h4>
-                                <div class="courses-one__single-content-review-box">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fab fa-github"></i></li>
-                                    </ul>
-                                    <div class="rateing-box">
-                                        <span>(Easy)</span>
-                                    </div>
-                                </div>
+                                <h4 class="courses-one__single-content-title"><a href="project-guide.html">Fix UI Glitch in App</a></h4> <!-- Updated Link -->
+                                <div class="courses-one__single-content-review-box"><ul class="list-unstyled"><li><i class="fab fa-github"></i></li></ul><div class="rateing-box"><span>(Medium)</span></div></div>
                                 <p class="courses-one__single-content-price">Free</p>
-                                <ul class="courses-one__single-content-courses-info list-unstyled">
-                                    <li>Skills: Markdown</li>
-                                    <li>Est. Time: 1 Hr</li>
-                                    <li>Beginner</li>
-                                </ul>
+                                <ul class="courses-one__single-content-courses-info list-unstyled"><li>Skills: Python, Git</li><li>Est. Time: 5 Hrs</li><li>Intermediate</li></ul>
                             </div>
                         </div>
                     </div>
                     <!--End Single Courses One-->
-
                     <!--Start Single Courses One-->
                     <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="courses-one__single wow fadeInRight" data-wow-delay="0ms"
-                            data-wow-duration="1000ms">
-                            <div class="courses-one__single-img">
-                                <img src="assets/images/resources/courses-v1-img3.jpg" alt="Project Image" />
-                                <div class="overlay-text">
-                                    <p>Bug Fix</p>
-                                </div>
-                            </div>
+                        <div class="courses-one__single wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
+                            <div class="courses-one__single-img"><img src="assets/images/resources/courses-v1-img4.jpg" alt="Project Image" /><div class="overlay-text"><p>Feature Request</p></div></div>
                             <div class="courses-one__single-content">
-                                <div class="courses-one__single-content-overlay-img">
-                                    <img src="assets/images/resources/courses-v1-overlay-img3.png" alt="Project Maintainer Avatar" />
-                                </div>
+                                <div class="courses-one__single-content-overlay-img"><img src="assets/images/resources/courses-v1-overlay-img4.png" alt="Project Maintainer Avatar" /></div>
                                 <h6 class="courses-one__single-content-name">Project Maintainer</h6>
-                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Fix UI Glitch in App</a></h4>
-                                <div class="courses-one__single-content-review-box">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fab fa-github"></i></li>
-                                    </ul>
-                                    <div class="rateing-box">
-                                        <span>(Medium)</span>
-                                    </div>
-                                </div>
+                                <h4 class="courses-one__single-content-title"><a href="project-guide.html">Add New Feature to Library</a></h4> <!-- Updated Link -->
+                                <div class="courses-one__single-content-review-box"><ul class="list-unstyled"><li><i class="fab fa-github"></i></li></ul><div class="rateing-box"><span>(Medium)</span></div></div>
                                 <p class="courses-one__single-content-price">Free</p>
-                                <ul class="courses-one__single-content-courses-info list-unstyled">
-                                    <li>Skills: Python, Git</li>
-                                    <li>Est. Time: 5 Hrs</li>
-                                    <li>Intermediate</li>
-                                </ul>
+                                <ul class="courses-one__single-content-courses-info list-unstyled"><li>Skills: Go, Testing</li><li>Est. Time: 8 Hrs</li><li>Intermediate</li></ul>
                             </div>
                         </div>
                     </div>
                     <!--End Single Courses One-->
-
-                    <!--Start Single Courses One-->
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="courses-one__single wow fadeInRight" data-wow-delay="100ms"
-                            data-wow-duration="1000ms">
-                            <div class="courses-one__single-img">
-                                <img src="assets/images/resources/courses-v1-img4.jpg" alt="Project Image" />
-                                <div class="overlay-text">
-                                    <p>Feature Request</p>
-                                </div>
-                            </div>
-                            <div class="courses-one__single-content">
-                                <div class="courses-one__single-content-overlay-img">
-                                    <img src="assets/images/resources/courses-v1-overlay-img4.png" alt="Project Maintainer Avatar" />
-                                </div>
-                                <h6 class="courses-one__single-content-name">Project Maintainer</h6>
-                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Add New Feature to Library</a></h4>
-                                <div class="courses-one__single-content-review-box">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fab fa-github"></i></li>
-                                    </ul>
-                                    <div class="rateing-box">
-                                        <span>(Medium)</span>
-                                    </div>
-                                </div>
-                                <p class="courses-one__single-content-price">Free</p>
-                                <ul class="courses-one__single-content-courses-info list-unstyled">
-                                    <li>Skills: Go, Testing</li>
-                                    <li>Est. Time: 8 Hrs</li>
-                                    <li>Intermediate</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Courses One-->
-
-                    <!-- Repeat structure for more examples if needed, updating details -->
                     <!--Start Single Courses One-->
                     <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="courses-one__single wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1000ms">
-                            <div class="courses-one__single-img">
-                                <img src="assets/images/resources/courses-v1-img5.jpg" alt="Project Image" />
-                                <div class="overlay-text">
-                                    <p>Testing</p>
-                                </div>
-                            </div>
+                            <div class="courses-one__single-img"><img src="assets/images/resources/courses-v1-img5.jpg" alt="Project Image" /><div class="overlay-text"><p>Testing</p></div></div>
                             <div class="courses-one__single-content">
-                                <div class="courses-one__single-content-overlay-img">
-                                    <img src="assets/images/resources/courses-v1-overlay-img5.png" alt="Project Maintainer Avatar" />
-                                </div>
+                                <div class="courses-one__single-content-overlay-img"><img src="assets/images/resources/courses-v1-overlay-img5.png" alt="Project Maintainer Avatar" /></div>
                                 <h6 class="courses-one__single-content-name">Project Maintainer</h6>
-                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Write Unit Tests for Module</a></h4>
-                                <div class="courses-one__single-content-review-box">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fab fa-github"></i></li>
-                                    </ul>
-                                    <div class="rateing-box">
-                                        <span>(Easy)</span>
-                                    </div>
-                                </div>
+                                <h4 class="courses-one__single-content-title"><a href="project-guide.html">Write Unit Tests for Module</a></h4> <!-- Updated Link -->
+                                <div class="courses-one__single-content-review-box"><ul class="list-unstyled"><li><i class="fab fa-github"></i></li></ul><div class="rateing-box"><span>(Easy)</span></div></div>
                                 <p class="courses-one__single-content-price">Free</p>
-                                <ul class="courses-one__single-content-courses-info list-unstyled">
-                                    <li>Skills: Java, JUnit</li>
-                                    <li>Est. Time: 4 Hrs</li>
-                                    <li>Beginner</li>
-                                </ul>
+                                <ul class="courses-one__single-content-courses-info list-unstyled"><li>Skills: Java, JUnit</li><li>Est. Time: 4 Hrs</li><li>Beginner</li></ul>
                             </div>
                         </div>
                     </div>
                     <!--End Single Courses One-->
-
                     <!--Start Single Courses One-->
                     <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="courses-one__single wow fadeInLeft" data-wow-delay="100ms"
-                            data-wow-duration="1000ms">
-                            <div class="courses-one__single-img">
-                                <img src="assets/images/resources/courses-v1-img6.jpg" alt="Project Image" />
-                                <div class="overlay-text">
-                                    <p>Good First Issue</p>
-                                </div>
-                            </div>
+                        <div class="courses-one__single wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">
+                            <div class="courses-one__single-img"><img src="assets/images/resources/courses-v1-img6.jpg" alt="Project Image" /><div class="overlay-text"><p>Good First Issue</p></div></div>
                             <div class="courses-one__single-content">
-                                <div class="courses-one__single-content-overlay-img">
-                                    <img src="assets/images/resources/courses-v1-overlay-img6.png" alt="Project Maintainer Avatar" />
-                                </div>
+                                <div class="courses-one__single-content-overlay-img"><img src="assets/images/resources/courses-v1-overlay-img6.png" alt="Project Maintainer Avatar" /></div>
                                 <h6 class="courses-one__single-content-name">Project Maintainer</h6>
-                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Refactor Utility Function</a></h4>
-                                <div class="courses-one__single-content-review-box">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fab fa-github"></i></li>
-                                    </ul>
-                                    <div class="rateing-box">
-                                        <span>(Beginner)</span>
-                                    </div>
-                                </div>
+                                <h4 class="courses-one__single-content-title"><a href="project-guide.html">Refactor Utility Function</a></h4> <!-- Updated Link -->
+                                <div class="courses-one__single-content-review-box"><ul class="list-unstyled"><li><i class="fab fa-github"></i></li></ul><div class="rateing-box"><span>(Beginner)</span></div></div>
                                 <p class="courses-one__single-content-price">Free</p>
-                                <ul class="courses-one__single-content-courses-info list-unstyled">
-                                    <li>Skills: Ruby, Git</li>
-                                    <li>Est. Time: 2 Hrs</li>
-                                    <li>Beginner</li>
-                                </ul>
+                                <ul class="courses-one__single-content-courses-info list-unstyled"><li>Skills: Ruby, Git</li><li>Est. Time: 2 Hrs</li><li>Beginner</li></ul>
                             </div>
                         </div>
                     </div>
                     <!--End Single Courses One-->
-
                     <!--Start Single Courses One-->
                     <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="courses-one__single wow fadeInRight" data-wow-delay="0ms"
-                            data-wow-duration="1000ms">
-                            <div class="courses-one__single-img">
-                                <img src="assets/images/resources/courses-v1-img7.jpg" alt="Project Image" />
-                                <div class="overlay-text">
-                                    <p>Accessibility</p>
-                                </div>
-                            </div>
+                        <div class="courses-one__single wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1000ms">
+                            <div class="courses-one__single-img"><img src="assets/images/resources/courses-v1-img7.jpg" alt="Project Image" /><div class="overlay-text"><p>Accessibility</p></div></div>
                             <div class="courses-one__single-content">
-                                <div class="courses-one__single-content-overlay-img">
-                                    <img src="assets/images/resources/courses-v1-overlay-img7.png" alt="Project Maintainer Avatar" />
-                                </div>
+                                <div class="courses-one__single-content-overlay-img"><img src="assets/images/resources/courses-v1-overlay-img7.png" alt="Project Maintainer Avatar" /></div>
                                 <h6 class="courses-one__single-content-name">Project Maintainer</h6>
-                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Improve Keyboard Navigation</a></h4>
-                                <div class="courses-one__single-content-review-box">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fab fa-github"></i></li>
-                                    </ul>
-                                    <div class="rateing-box">
-                                        <span>(Medium)</span>
-                                    </div>
-                                </div>
+                                <h4 class="courses-one__single-content-title"><a href="project-guide.html">Improve Keyboard Navigation</a></h4> <!-- Updated Link -->
+                                <div class="courses-one__single-content-review-box"><ul class="list-unstyled"><li><i class="fab fa-github"></i></li></ul><div class="rateing-box"><span>(Medium)</span></div></div>
                                 <p class="courses-one__single-content-price">Free</p>
-                                <ul class="courses-one__single-content-courses-info list-unstyled">
-                                    <li>Skills: HTML, ARIA</li>
-                                    <li>Est. Time: 6 Hrs</li>
-                                    <li>Intermediate</li>
-                                </ul>
+                                <ul class="courses-one__single-content-courses-info list-unstyled"><li>Skills: HTML, ARIA</li><li>Est. Time: 6 Hrs</li><li>Intermediate</li></ul>
                             </div>
                         </div>
                     </div>
                     <!--End Single Courses One-->
-
                     <!--Start Single Courses One-->
                     <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="courses-one__single wow fadeInRight" data-wow-delay="100ms"
-                            data-wow-duration="1000ms">
-                            <div class="courses-one__single-img">
-                                <img src="assets/images/resources/courses-v1-img8.jpg" alt="Project Image" />
-                                <div class="overlay-text">
-                                    <p>Help Wanted</p>
-                                </div>
-                            </div>
+                        <div class="courses-one__single wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1000ms">
+                            <div class="courses-one__single-img"><img src="assets/images/resources/courses-v1-img8.jpg" alt="Project Image" /><div class="overlay-text"><p>Help Wanted</p></div></div>
                             <div class="courses-one__single-content">
-                                <div class="courses-one__single-content-overlay-img">
-                                    <img src="assets/images/resources/courses-v1-overlay-img8.png" alt="Project Maintainer Avatar" />
-                                </div>
+                                <div class="courses-one__single-content-overlay-img"><img src="assets/images/resources/courses-v1-overlay-img8.png" alt="Project Maintainer Avatar" /></div>
                                 <h6 class="courses-one__single-content-name">Project Maintainer</h6>
-                                <h4 class="courses-one__single-content-title"><a href="course-details.html">Update Dependencies</a></h4>
-                                <div class="courses-one__single-content-review-box">
-                                    <ul class="list-unstyled">
-                                        <li><i class="fab fa-github"></i></li>
-                                    </ul>
-                                    <div class="rateing-box">
-                                        <span>(Easy)</span>
-                                    </div>
-                                </div>
+                                <h4 class="courses-one__single-content-title"><a href="project-guide.html">Update Dependencies</a></h4> <!-- Updated Link -->
+                                <div class="courses-one__single-content-review-box"><ul class="list-unstyled"><li><i class="fab fa-github"></i></li></ul><div class="rateing-box"><span>(Easy)</span></div></div>
                                 <p class="courses-one__single-content-price">Free</p>
-                                <ul class="courses-one__single-content-courses-info list-unstyled">
-                                    <li>Skills: NPM/Yarn</li>
-                                    <li>Est. Time: 1 Hr</li>
-                                    <li>Beginner</li>
-                                </ul>
+                                <ul class="courses-one__single-content-courses-info list-unstyled"><li>Skills: NPM/Yarn</li><li>Est. Time: 1 Hr</li><li>Beginner</li></ul>
                             </div>
                         </div>
                     </div>
@@ -767,252 +414,96 @@
         </section>
         <!--Courses One End-->
 
-
-
         <!--Registration One Start-->
         <section class="registration-one jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%">
-            <div class="registration-one__bg"
-                style="background-image: url(assets/images/resources/registration-one-bg.jpg);"></div>
+            <div class="registration-one__bg" style="background-image: url(assets/images/resources/registration-one-bg.jpg);"></div>
             <div class="container">
                 <div class="row">
-                    <!--Start Registration One Left-->
                     <div class="col-xl-7 col-lg-7">
                         <div class="registration-one__left">
-                            <div class="section-title">
-                                <span class="section-title__tagline">Join XpressLab Today</span>
-                                <h2 class="section-title__title">Create Your Account &<br> Start Your Open Source<br> Journey with <span
-                                        class="odometer" data-count="1000">00</span>+<br> Active Opportunities</h2> <!-- Adjusted count and text -->
-                            </div>
+                            <div class="section-title"><span class="section-title__tagline">Join XpressLab Today</span><h2 class="section-title__title">Create Your Account &<br> Start Your Open Source<br> Journey with <span class="odometer" data-count="1000">00</span>+<br> Active Opportunities</h2></div>
                             <p class="registration-one__left-text">Sign up for free to access curated projects, learning resources, and a supportive community.</p>
                             <div class="registration-one__left-transform-box">
-                                <div class="registration-one__left-transform-box-icon">
-                                    <span class="icon-online-course"></span> <!-- Icon representing transformation/growth -->
-                                </div>
-                                <div class="registration-one__left-transform-box-text">
-                                    <h3><a href="#">Transform Your Skills Through Contribution</a></h3>
-                                    <p>Discover projects aligned with your interests and skill level, <br>and start making meaningful contributions today.</p>
-                                </div>
+                                <div class="registration-one__left-transform-box-icon"><span class="icon-online-course"></span></div>
+                                <div class="registration-one__left-transform-box-text"><h3><a href="#">Transform Your Skills Through Contribution</a></h3><p>Discover projects aligned with your interests and skill level, <br>and start making meaningful contributions today.</p></div>
                             </div>
                         </div>
                     </div>
-                    <!--End Registration One Left-->
-
-                    <!--Start Registration One Right-->
                     <div class="col-xl-5 col-lg-5">
-                        <div class="registration-one__right wow slideInRight" data-wow-delay="100ms"
-                            data-wow-duration="2500ms">
+                        <div class="registration-one__right wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
                             <div class="registration-one__right-form">
-                                <div class="title-box">
-                                    <h4>Register for Free</h4>
-                                </div>
+                                <div class="title-box"><h4>Register for Free</h4></div>
                                 <div class="form-box">
-                                    <form method="post" action="index.html"> <!-- Action should point to actual registration endpoint -->
-                                        <div class="form-group">
-                                            <input type="text" name="username" placeholder="Your Name" required="">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="email" name="email" placeholder="Email Address" required="">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" name="github_username" placeholder="GitHub Username (Optional)"> <!-- Added GitHub username field -->
-                                        </div>
-                                        <div class="form-group">
-                                            <textarea placeholder="Tell us about your interests (Optional)"></textarea>
-                                        </div>
-                                        <button class="registration-one__right-form-btn" type="submit"
-                                            name="submit-form">
-                                            <span class="thm-btn">Join XpressLab Now</span>
-                                        </button>
+                                    <form method="post" action="index.html">
+                                        <div class="form-group"><input type="text" name="username" placeholder="Your Name" required=""></div>
+                                        <div class="form-group"><input type="email" name="email" placeholder="Email Address" required=""></div>
+                                        <div class="form-group"><input type="text" name="github_username" placeholder="GitHub Username (Optional)"></div>
+                                        <div class="form-group"><textarea placeholder="Tell us about your interests (Optional)"></textarea></div>
+                                        <button class="registration-one__right-form-btn" type="submit" name="submit-form"><span class="thm-btn">Join XpressLab Now</span></button>
                                     </form>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--End Registration One Right-->
                 </div>
             </div>
         </section>
         <!--Registration One End-->
 
-
         <!--Categories One Start-->
         <section class="categories-one">
             <div class="container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline">Find Your Niche</span>
-                    <h2 class="section-title__title">Explore Project Areas</h2>
-                </div>
+                <div class="section-title text-center"><span class="section-title__tagline">Find Your Niche</span><h2 class="section-title__title">Explore Project Areas</h2></div>
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="categories-one__wrapper">
                             <div class="row">
-                                <!--Start Single Categories One-->
-                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0ms"
-                                    data-wow-duration="1500ms">
-                                    <div class="categories-one__single">
-                                        <div class="categories-one__single-img">
-                                            <img src="assets/images/resources/categories-v1-img1.jpg" alt="JavaScript Projects" />
-                                            <div class="categories-one__single-overlay">
-                                                <div class="categories-one__single-overlay-text1">
-                                                    <p>150+ Active Issues</p>
-                                                </div>
-                                                <div class="categories-one__single-overlay-text2">
-                                                    <h4>JavaScript</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="categories-one__single"><div class="categories-one__single-img"><img src="assets/images/resources/categories-v1-img1.jpg" alt="JavaScript Projects" /><div class="categories-one__single-overlay"><div class="categories-one__single-overlay-text1"><p>150+ Active Issues</p></div><div class="categories-one__single-overlay-text2"><h4>JavaScript</h4></div></div></div></div>
                                 </div>
-                                <!--End Single Categories One-->
-
-                                <!--Start Single Categories One-->
-                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms"
-                                    data-wow-duration="1500ms">
-                                    <div class="categories-one__single">
-                                        <div class="categories-one__single-img">
-                                            <img src="assets/images/resources/categories-v1-img2.jpg" alt="Python Projects" />
-                                            <div class="categories-one__single-overlay">
-                                                <div class="categories-one__single-overlay-text1">
-                                                    <p>120+ Active Issues</p>
-                                                </div>
-                                                <div class="categories-one__single-overlay-text2">
-                                                    <h4>Python</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                    <div class="categories-one__single"><div class="categories-one__single-img"><img src="assets/images/resources/categories-v1-img2.jpg" alt="Python Projects" /><div class="categories-one__single-overlay"><div class="categories-one__single-overlay-text1"><p>120+ Active Issues</p></div><div class="categories-one__single-overlay-text2"><h4>Python</h4></div></div></div></div>
                                 </div>
-                                <!--End Single Categories One-->
-
-                                <!--Start Single Categories One-->
-                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
-                                    data-wow-duration="1500ms">
-                                    <div class="categories-one__single">
-                                        <div class="categories-one__single-img">
-                                            <img src="assets/images/resources/categories-v1-img3.jpg" alt="Web Development Projects" />
-                                            <div class="categories-one__single-overlay">
-                                                <div class="categories-one__single-overlay-text1">
-                                                    <p>200+ Active Issues</p>
-                                                </div>
-                                                <div class="categories-one__single-overlay-text2">
-                                                    <h4>Web Development</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                    <div class="categories-one__single"><div class="categories-one__single-img"><img src="assets/images/resources/categories-v1-img3.jpg" alt="Web Development Projects" /><div class="categories-one__single-overlay"><div class="categories-one__single-overlay-text1"><p>200+ Active Issues</p></div><div class="categories-one__single-overlay-text2"><h4>Web Development</h4></div></div></div></div>
                                 </div>
-                                <!--End Single Categories One-->
-
-                                <!--Start Single Categories One-->
-                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="600ms"
-                                    data-wow-duration="1500ms">
-                                    <div class="categories-one__single">
-                                        <div class="categories-one__single-img">
-                                            <img src="assets/images/resources/categories-v1-img4.jpg" alt="Data Science Projects" />
-                                            <div class="categories-one__single-overlay">
-                                                <div class="categories-one__single-overlay-text1">
-                                                    <p>80+ Active Issues</p>
-                                                </div>
-                                                <div class="categories-one__single-overlay-text2">
-                                                    <h4>Data Science</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                    <div class="categories-one__single"><div class="categories-one__single-img"><img src="assets/images/resources/categories-v1-img4.jpg" alt="Data Science Projects" /><div class="categories-one__single-overlay"><div class="categories-one__single-overlay-text1"><p>80+ Active Issues</p></div><div class="categories-one__single-overlay-text2"><h4>Data Science</h4></div></div></div></div>
                                 </div>
-                                <!--End Single Categories One-->
                             </div>
                         </div>
-                        <div class="categories-one__btn text-center">
-                            <a href="courses.html" class="thm-btn">Browse All Project Areas</a>
-                        </div>
+                        <div class="categories-one__btn text-center"><a href="projects.html" class="thm-btn">Browse All Project Areas</a></div> <!-- Updated Link -->
                     </div>
                 </div>
             </div>
         </section>
         <!--Categories One End-->
 
-
-
         <!--Testimonials One Start-->
         <section class="testimonials-one clearfix">
             <div class="auto-container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline">Contributor Stories</span>
-                    <h2 class="section-title__title">Hear From Our Community</h2>
-                </div>
+                <div class="section-title text-center"><span class="section-title__tagline">Contributor Stories</span><h2 class="section-title__title">Hear From Our Community</h2></div>
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="testimonials-one__wrapper">
-                            <div class="testimonials-one__pattern"><img
-                                    src="assets/images/pattern/testimonials-one-left-pattern.png" alt="" /></div>
+                            <div class="testimonials-one__pattern"><img src="assets/images/pattern/testimonials-one-left-pattern.png" alt="" /></div>
                             <div class="shape1"><img src="assets/images/shapes/thm-shape3.png" alt="" /></div>
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="testimonials-one__carousel owl-carousel owl-theme owl-dot-type1">
-                                        <!--Start Single Testimonials One -->
-                                        <div class="testimonials-one__single wow fadeInUp" data-wow-delay="0ms"
-                                            data-wow-duration="1500ms">
-                                            <div class="testimonials-one__single-inner">
-                                                <h4 class="testimonials-one__single-title">Landed My First Tech Job!</h4>
-                                                <p class="testimonials-one__single-text">Contributing through XpressLab gave me the practical experience and portfolio pieces I needed. Found a great project, made meaningful contributions, and it directly led to my first developer role.</p>
-                                                <div class="testimonials-one__single-client-info">
-                                                    <div class="testimonials-one__single-client-info-img">
-                                                        <img src="assets/images/testimonial/testimonials-v1-client-info-img1.png"
-                                                            alt="Contributor Avatar" />
-                                                    </div>
-                                                    <div class="testimonials-one__single-client-info-text">
-                                                        <h5>Alex Johnson</h5>
-                                                        <p>Software Engineer</p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="testimonials-one__single wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                            <div class="testimonials-one__single-inner"><h4 class="testimonials-one__single-title">Landed My First Tech Job!</h4><p class="testimonials-one__single-text">Contributing through XpressLab gave me the practical experience and portfolio pieces I needed. Found a great project, made meaningful contributions, and it directly led to my first developer role.</p><div class="testimonials-one__single-client-info"><div class="testimonials-one__single-client-info-img"><img src="assets/images/testimonial/testimonials-v1-client-info-img1.png" alt="Contributor Avatar" /></div><div class="testimonials-one__single-client-info-text"><h5>Alex Johnson</h5><p>Software Engineer</p></div></div></div>
                                         </div>
-                                        <!--End Single Testimonials One -->
-
-                                        <!--Start Single Testimonials One -->
-                                        <div class="testimonials-one__single wow fadeInUp" data-wow-delay="100ms"
-                                            data-wow-duration="1500ms">
-                                            <div class="testimonials-one__single-inner">
-                                                <h4 class="testimonials-one__single-title">Demystified Open Source</h4>
-                                                <p class="testimonials-one__single-text">I was always intimidated by open source. XpressLab made it easy to find beginner-friendly issues and understand the contribution workflow. My confidence has grown immensely!</p>
-                                                <div class="testimonials-one__single-client-info">
-                                                    <div class="testimonials-one__single-client-info-img">
-                                                        <img src="assets/images/testimonial/testimonials-v1-client-info-img2.png"
-                                                            alt="Contributor Avatar" />
-                                                    </div>
-                                                    <div class="testimonials-one__single-client-info-text">
-                                                        <h5>Priya Sharma</h5>
-                                                        <p>Aspiring Developer</p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="testimonials-one__single wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                            <div class="testimonials-one__single-inner"><h4 class="testimonials-one__single-title">Demystified Open Source</h4><p class="testimonials-one__single-text">I was always intimidated by open source. XpressLab made it easy to find beginner-friendly issues and understand the contribution workflow. My confidence has grown immensely!</p><div class="testimonials-one__single-client-info"><div class="testimonials-one__single-client-info-img"><img src="assets/images/testimonial/testimonials-v1-client-info-img2.png" alt="Contributor Avatar" /></div><div class="testimonials-one__single-client-info-text"><h5>Priya Sharma</h5><p>Aspiring Developer</p></div></div></div>
                                         </div>
-                                        <!--End Single Testimonials One -->
-
-                                        <!--Start Single Testimonials One -->
-                                        <div class="testimonials-one__single wow fadeInUp" data-wow-delay="200ms"
-                                            data-wow-duration="1500ms">
-                                            <div class="testimonials-one__single-inner">
-                                                <h4 class="testimonials-one__single-title">Great Learning Experience</h4>
-                                                <p class="testimonials-one__single-text">The platform helped me apply what I learned in theory to actual code. Collaborating on a real project was invaluable for skill development. Highly recommend XpressLab!</p>
-                                                <div class="testimonials-one__single-client-info">
-                                                    <div class="testimonials-one__single-client-info-img">
-                                                        <img src="assets/images/testimonial/testimonials-v1-client-info-img3.png"
-                                                            alt="Contributor Avatar" />
-                                                    </div>
-                                                    <div class="testimonials-one__single-client-info-text">
-                                                        <h5>Ben Carter</h5>
-                                                        <p>Student Contributor</p>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="testimonials-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                            <div class="testimonials-one__single-inner"><h4 class="testimonials-one__single-title">Great Learning Experience</h4><p class="testimonials-one__single-text">The platform helped me apply what I learned in theory to actual code. Collaborating on a real project was invaluable for skill development. Highly recommend XpressLab!</p><div class="testimonials-one__single-client-info"><div class="testimonials-one__single-client-info-img"><img src="assets/images/testimonial/testimonials-v1-client-info-img3.png" alt="Contributor Avatar" /></div><div class="testimonials-one__single-client-info-text"><h5>Ben Carter</h5><p>Student Contributor</p></div></div></div>
                                         </div>
-                                        <!--End Single Testimonials One -->
-                                        <!-- Add more testimonials following the pattern -->
                                     </div>
                                 </div>
                             </div>
+                             <div class="text-center" style="margin-top: 30px;"><a href="stories.html" class="thm-btn">More Success Stories</a></div> <!-- Added Button -->
                         </div>
                     </div>
                 </div>
@@ -1020,210 +511,96 @@
         </section>
         <!--Testimonials One End-->
 
-
         <!--Company Logos One Start-->
         <section class="company-logos-one">
             <div class="container">
-                <div class="company-logos-one__title text-center">
-                    <h6>Contribute to Leading Open Source Projects</h6> <!-- Updated title -->
-                </div>
+                <div class="company-logos-one__title text-center"><h6>Contribute to Leading Open Source Projects</h6></div>
                 <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
-                "0": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 2
-                },
-                "375": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 2
-                },
-                "575": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 3
-                },
-                "767": {
-                    "spaceBetween": 50,
-                    "slidesPerView": 4
-                },
-                "991": {
-                    "spaceBetween": 50,
-                    "slidesPerView": 5
-                },
-                "1199": {
-                    "spaceBetween": 100,
-                    "slidesPerView": 5
-                }
-            }}'>
+                "0": { "spaceBetween": 30, "slidesPerView": 2 }, "375": { "spaceBetween": 30, "slidesPerView": 2 }, "575": { "spaceBetween": 30, "slidesPerView": 3 }, "767": { "spaceBetween": 50, "slidesPerView": 4 }, "991": { "spaceBetween": 50, "slidesPerView": 5 }, "1199": { "spaceBetween": 100, "slidesPerView": 5 }}}'>
                     <div class="swiper-wrapper">
-                        <!-- Replace with actual project/company logos if available -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/Company-Logos-v1-logo1.png" alt="Open Source Project Logo 1">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/Company-Logos-v1-logo1.png" alt="Open Source Project Logo 2">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/Company-Logos-v1-logo1.png" alt="Open Source Project Logo 3">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/Company-Logos-v1-logo1.png" alt="Open Source Project Logo 4">
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide">
-                            <img src="assets/images/resources/Company-Logos-v1-logo1.png" alt="Open Source Project Logo 5">
-                        </div><!-- /.swiper-slide -->
-                        <!-- Repeat for more logos -->
+                        <div class="swiper-slide"><img src="assets/images/resources/Company-Logos-v1-logo1.png" alt="Open Source Project Logo 1"></div>
+                        <div class="swiper-slide"><img src="assets/images/resources/Company-Logos-v1-logo1.png" alt="Open Source Project Logo 2"></div>
+                        <div class="swiper-slide"><img src="assets/images/resources/Company-Logos-v1-logo1.png" alt="Open Source Project Logo 3"></div>
+                        <div class="swiper-slide"><img src="assets/images/resources/Company-Logos-v1-logo1.png" alt="Open Source Project Logo 4"></div>
+                        <div class="swiper-slide"><img src="assets/images/resources/Company-Logos-v1-logo1.png" alt="Open Source Project Logo 5"></div>
                     </div>
                 </div>
             </div>
         </section>
         <!--Company Logos One End-->
 
-
         <!--Why Choose One Start-->
         <section class="why-choose-one">
             <div class="container">
                 <div class="row">
-                    <!--Start Why Choose One Left-->
                     <div class="col-xl-6 col-lg-6">
                         <div class="why-choose-one__left">
-                            <div class="section-title">
-                                <span class="section-title__tagline">Why Choose XpressLab?</span>
-                                <h2 class="section-title__title">Unlock Your Potential <br>Through Contribution</h2>
-                            </div>
+                            <div class="section-title"><span class="section-title__tagline">Why Choose XpressLab?</span><h2 class="section-title__title">Unlock Your Potential <br>Through Contribution</h2></div>
                             <p class="why-choose-one__left-text">XpressLab provides the tools, resources, and opportunities you need to successfully contribute to open source and accelerate your tech career.</p>
-                            <div class="why-choose-one__left-learning-box">
-                                <div class="icon">
-                                    <span class="icon-professor"></span> <!-- Icon representing expertise/guidance -->
-                                </div>
-                                <div class="text">
-                                    <h4>Learn by doing with guidance from <br>experienced maintainers</h4>
-                                </div>
-                            </div>
+                            <div class="why-choose-one__left-learning-box"><div class="icon"><span class="icon-professor"></span></div><div class="text"><h4>Learn by doing with guidance from <br>experienced maintainers</h4></div></div>
                             <div class="why-choose-one__left-list">
                                 <ul class="list-unstyled">
-                                    <li class="why-choose-one__left-list-single">
-                                        <div class="icon">
-                                            <span class="icon-confirmation"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>Gain verifiable experience on real GitHub projects</p>
-                                        </div>
-                                    </li>
-
-                                    <li class="why-choose-one__left-list-single">
-                                        <div class="icon">
-                                            <span class="icon-confirmation"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>Discover curated "good first issues" to get started easily</p>
-                                        </div>
-                                    </li>
-
-                                    <li class="why-choose-one__left-list-single">
-                                        <div class="icon">
-                                            <span class="icon-confirmation"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>Build a strong portfolio showcasing your skills</p>
-                                        </div>
-                                    </li>
+                                    <li class="why-choose-one__left-list-single"><div class="icon"><span class="icon-confirmation"></span></div><div class="text"><p>Gain verifiable experience on real GitHub projects</p></div></li>
+                                    <li class="why-choose-one__left-list-single"><div class="icon"><span class="icon-confirmation"></span></div><div class="text"><p>Discover curated "good first issues" to get started easily</p></div></li>
+                                    <li class="why-choose-one__left-list-single"><div class="icon"><span class="icon-confirmation"></span></div><div class="text"><p>Build a strong portfolio showcasing your skills</p></div></li>
                                 </ul>
                             </div>
+                             <div class="why-choose-one__left-btn" style="margin-top: 25px;"><a href="about.html" class="thm-btn">Learn More About Us</a></div> <!-- Added Button -->
                         </div>
                     </div>
-                    <!--End Why Choose One Left-->
-
-                    <!--Start Why Choose One Right-->
                     <div class="col-xl-6 col-lg-6">
-                        <div class="why-choose-one__right wow slideInRight animated clearfix" data-wow-delay="0ms"
-                            data-wow-duration="1500ms">
-                            <div class="why-choose-one__right-img clearfix">
-                                <img src="assets/images/resources/why-choose-v1-img.jpg" alt="Developer collaborating on code" />
-                                <div class="why-choose-one__right-img-overlay">
-                                    <p>Your bridge to impactful contributions</p>
-                                </div>
-                            </div>
+                        <div class="why-choose-one__right wow slideInRight animated clearfix" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="why-choose-one__right-img clearfix"><img src="assets/images/resources/why-choose-v1-img.jpg" alt="Developer collaborating on code" /><div class="why-choose-one__right-img-overlay"><p>Your bridge to impactful contributions</p></div></div>
                         </div>
                     </div>
-                    <!--End Why Choose One Right-->
-
                 </div>
             </div>
         </section>
         <!--Why Choose One End-->
 
-
-
         <!--Blog One Start-->
         <section class="blog-one">
             <div class="container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline">From the XpressLab Blog</span>
-                    <h2 class="section-title__title">Insights & Updates</h2>
-                </div>
+                <div class="section-title text-center"><span class="section-title__tagline">From the XpressLab Blog</span><h2 class="section-title__title">Insights & Updates</h2></div>
                 <div class="row">
-                    <!--Start Single Blog One-->
                     <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="blog-one__single">
-                            <div class="blog-one__single-img">
-                                <img src="assets/images/blog/blog-v1-img1.jpg" alt="Blog post image about open source" />
-                            </div>
+                            <div class="blog-one__single-img"><img src="assets/images/blog/blog-v1-img1.jpg" alt="Blog post image about open source" /></div>
                             <div class="blog-one__single-content">
                                 <div class="blog-one__single-content-overlay-mata-info">
-                                    <ul class="list-unstyled">
-                                        <li><a href="#"><span class="icon-clock"></span>20 Oct</a></li> <!-- Example Date -->
-                                        <li><a href="#"><span class="icon-user"></span>XpressLab Team</a></li>
-                                        <li><a href="#"><span class="icon-chat"></span> 2 Comments</a></li>
-                                    </ul>
+                                    <ul class="list-unstyled"><li><a href="#"><span class="icon-clock"></span>20 Oct</a></li><li><a href="#"><span class="icon-user"></span>XpressLab Team</a></li><li><a href="#"><span class="icon-chat"></span> 2 Comments</a></li></ul>
                                 </div>
                                 <h2 class="blog-one__single-content-title"><a href="news-details.html">Making Your First Open Source Contribution</a></h2>
                                 <p class="blog-one__single-content-text">Tips and steps for navigating your initial contribution to a GitHub project using XpressLab.</p>
                             </div>
                         </div>
                     </div>
-                    <!--End Single Blog One-->
-
-                    <!--Start Single Blog One-->
                     <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="blog-one__single">
-                            <div class="blog-one__single-img">
-                                <img src="assets/images/blog/blog-v1-img2.jpg" alt="Blog post image about career growth" />
-                            </div>
+                            <div class="blog-one__single-img"><img src="assets/images/blog/blog-v1-img2.jpg" alt="Blog post image about career growth" /></div>
                             <div class="blog-one__single-content">
                                 <div class="blog-one__single-content-overlay-mata-info">
-                                    <ul class="list-unstyled">
-                                        <li><a href="#"><span class="icon-clock"></span>15 Oct</a></li>
-                                        <li><a href="#"><span class="icon-user"></span>XpressLab Team</a></li>
-                                        <li><a href="#"><span class="icon-chat"></span> 5 Comments</a></li>
-                                    </ul>
+                                    <ul class="list-unstyled"><li><a href="#"><span class="icon-clock"></span>15 Oct</a></li><li><a href="#"><span class="icon-user"></span>XpressLab Team</a></li><li><a href="#"><span class="icon-chat"></span> 5 Comments</a></li></ul>
                                 </div>
                                 <h2 class="blog-one__single-content-title"><a href="news-details.html">How Open Source Experience Boosts Your Resume</a></h2>
                                 <p class="blog-one__single-content-text">Learn how contributing to projects can make you stand out to tech recruiters and hiring managers.</p>
                             </div>
                         </div>
                     </div>
-                    <!--End Single Blog One-->
-
-                    <!--Start Single Blog One-->
                     <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="blog-one__single">
-                            <div class="blog-one__single-img">
-                                <img src="assets/images/blog/blog-v1-img3.jpg" alt="Blog post image about community" />
-                            </div>
+                            <div class="blog-one__single-img"><img src="assets/images/blog/blog-v1-img3.jpg" alt="Blog post image about community" /></div>
                             <div class="blog-one__single-content">
                                 <div class="blog-one__single-content-overlay-mata-info">
-                                    <ul class="list-unstyled">
-                                        <li><a href="#"><span class="icon-clock"></span>10 Oct</a></li>
-                                        <li><a href="#"><span class="icon-user"></span>XpressLab Team</a></li>
-                                        <li><a href="#"><span class="icon-chat"></span> 1 Comment</a></li>
-                                    </ul>
+                                    <ul class="list-unstyled"><li><a href="#"><span class="icon-clock"></span>10 Oct</a></li><li><a href="#"><span class="icon-user"></span>XpressLab Team</a></li><li><a href="#"><span class="icon-chat"></span> 1 Comment</a></li></ul>
                                 </div>
                                 <h2 class="blog-one__single-content-title"><a href="news-details.html">Finding Supportive Open Source Communities</a></h2>
                                 <p class="blog-one__single-content-text">Explore ways to connect with welcoming projects and mentors within the open source ecosystem.</p>
                             </div>
                         </div>
                     </div>
-                    <!--End Single Blog One-->
                 </div>
+                 <div class="text-center" style="margin-top: 30px;"><a href="news.html" class="thm-btn">View All News</a></div> <!-- Added Button -->
             </div>
         </section>
         <!--Blog One End-->
@@ -1232,210 +609,92 @@
         <section class="newsletter-one">
             <div class="container">
                 <div class="row">
-                    <!--Start Newsletter One Left-->
                     <div class="col-xl-6 col-lg-6">
                         <div class="newsletter-one__left">
-                            <div class="section-title">
-                                <h2 class="section-title__title">Stay Updated with <br>XpressLab News & <br>Opportunities!</h2>
-                            </div>
+                            <div class="section-title"><h2 class="section-title__title">Stay Updated with <br>XpressLab News & <br>Opportunities!</h2></div>
                         </div>
                     </div>
-                    <!--End Newsletter One Left-->
-
-                    <!--Start Newsletter One Right-->
                     <div class="col-xl-6 col-lg-6">
                         <div class="newsletter-one__right">
                             <div class="shape1 zoom-fade"><img src="assets/images/shapes/thm-shape2.png" alt="" /></div>
-                            <div class="shape2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms"><img
-                                    src="assets/images/shapes/thm-shape3.png" alt="" /></div>
-                            <div class="newsletter-form wow slideInDown" data-wow-delay="100ms"
-                                data-wow-duration="1500ms">
-                                <form action="#"> <!-- Action should point to newsletter signup endpoint -->
+                            <div class="shape2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms"><img src="assets/images/shapes/thm-shape3.png" alt="" /></div>
+                            <div class="newsletter-form wow slideInDown" data-wow-delay="100ms" data-wow-duration="1500ms">
+                                <form action="#">
                                     <input type="email" name="email" placeholder="Enter your email address">
                                     <button type="submit"><span class="icon-paper-plane"></span></button>
                                 </form>
-                                <div class="newsletter-one__right-checkbox">
-                                    <input type="checkbox" name="agree" id="agree" checked>
-                                    <label for="agree"><span></span>I agree to receive updates and accept the privacy policy.</label>
-                                </div>
+                                <div class="newsletter-one__right-checkbox"><input type="checkbox" name="agree" id="agree" checked><label for="agree"><span></span>I agree to receive updates and accept the privacy policy.</label></div>
                             </div>
                         </div>
                     </div>
-                    <!--End Newsletter One Right-->
                 </div>
             </div>
         </section>
         <!--End Newsletter One-->
 
-
-
-
         <!--Start Footer One-->
         <footer class="footer-one">
-            <div class="footer-one__bg" style="background-image: url(assets/images/backgrounds/footer-v1-bg.jpg);">
-            </div><!-- /.footer-one__bg -->
+            <div class="footer-one__bg" style="background-image: url(assets/images/backgrounds/footer-v1-bg.jpg);"></div>
             <div class="footer-one__top">
                 <div class="container">
                     <div class="row">
-                        <!--Start Footer Widget Column-->
-                        <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.1s">
-                            <div class="footer-widget__column footer-widget__about">
-                                <div class="footer-widget__about-logo">
-                                    <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt="XpressLab Footer Logo"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Footer Widget Column-->
-
-                        <!--Start Footer Widget Column-->
-                        <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.3s">
-                            <div class="footer-widget__column footer-widget__courses"> <!-- Renamed class but kept structure -->
-                                <h3 class="footer-widget__title">Explore</h3>
-                                <ul class="footer-widget__courses-list list-unstyled">
-                                    <li><a href="courses.html">Find Projects</a></li>
-                                    <li><a href="#">Learning Paths</a></li>
-                                    <li><a href="#">Contribution Guides</a></li>
-                                    <li><a href="#">Skill Development</a></li>
-                                    <li><a href="#">Community Forum</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--End Footer Widget Column-->
-
-                        <!--Start Footer Widget Column-->
-                        <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.5s">
-                            <div class="footer-widget__column footer-widget__links">
-                                <h3 class="footer-widget__title">Quick Links</h3>
-                                <ul class="footer-widget__links-list list-unstyled">
-                                    <li><a href="about.html">About XpressLab</a></li>
-                                    <li><a href="#">Platform Tour</a></li>
-                                    <li><a href="teachers-1.html">Mentors & Experts</a></li>
-                                    <li><a href="#">Join Our Team</a></li>
-                                    <li><a href="news.html">Blog & Updates</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--End Footer Widget Column-->
-
-                        <!--Start Footer Widget Column-->
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.7s">
-                            <div class="footer-widget__column footer-widget__contact">
-                                <h3 class="footer-widget__title">Contact</h3>
-                                <p class="text">Based in New York, USA</p> <!-- Simplified address -->
-                                <p><a href="mailto:needhelp@xpresslab.org">needhelp@xpresslab.org</a></p>
-                                <p class="phone"><a href="tel:9292292917">929-229-2917</a></p>
-                            </div>
-                        </div>
-                        <!--End Footer Widget Column-->
-
-                        <!--Start Footer Widget Column-->
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.9s">
-                            <div class="footer-widget__column footer-widget__social-links">
-                                <h3 class="footer-widget__title">Connect</h3> <!-- Added title -->
-                                <ul class="footer-widget__social-links-list list-unstyled clearfix">
-                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li> <!-- Changed Dribbble to LinkedIn -->
-                                </ul>
-                            </div>
-                        </div>
-                        <!--End Footer Widget Column-->
-
+                        <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.1s"><div class="footer-widget__column footer-widget__about"><div class="footer-widget__about-logo">
+                            <!-- <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt="XpressLab Footer Logo"></a> -->
+                        </div></div></div>
+                        <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.3s"><div class="footer-widget__column footer-widget__courses"><h3 class="footer-widget__title">Explore</h3><ul class="footer-widget__courses-list list-unstyled"><li><a href="projects.html">Find Projects</a></li><li><a href="trainings.html">Learning Paths</a></li><li><a href="project-guide.html">Contribution Guides</a></li><li><a href="resources.html">Skill Development</a></li><li><a href="news.html">Community Forum</a></li></ul></div></div>
+                        <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.5s"><div class="footer-widget__column footer-widget__links"><h3 class="footer-widget__title">Quick Links</h3><ul class="footer-widget__links-list list-unstyled"><li><a href="about.html">About XpressLab</a></li><li><a href="resources.html">Resources</a></li><li><a href="trainings.html">Training</a></li><li><a href="contact.html">Join Our Team</a></li><li><a href="news.html">Updates & News</a></li></ul></div></div> 
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.7s"><div class="footer-widget__column footer-widget__contact"><h3 class="footer-widget__title">Contact</h3><p class="text">Based in New York, USA</p><p><a href="mailto:needhelp@xpresslab.org">needhelp@xpresslab.org</a></p><p class="phone"><a href="tel:9292292917">929-229-2917</a></p></div></div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.9s"><div class="footer-widget__column footer-widget__social-links"><h3 class="footer-widget__title">Connect</h3><ul class="footer-widget__social-links-list list-unstyled clearfix"><li><a href="#"><i class="fab fa-facebook"></i></a></li><li><a href="#"><i class="fab fa-twitter"></i></a></li><li><a href="#"><i class="fab fa-instagram"></i></a></li><li><a href="#"><i class="fab fa-linkedin"></i></a></li></ul></div></div>
                     </div>
                 </div>
             </div>
-
-            <!--Start Footer One Bottom-->
             <div class="footer-one__bottom">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-12">
-                            <div class="footer-one__bottom-inner">
-                                <div class="footer-one__bottom-text text-center">
-                                    <p>&copy; Copyright 2025 by xpresslab.org</p>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="col-xl-12"><div class="footer-one__bottom-inner"><div class="footer-one__bottom-text text-center"><p>© Copyright 2025 by xpresslab.org</p></div></div></div>
                     </div>
                 </div>
             </div>
-            <!--End Footer One Bottom-->
         </footer>
         <!--End Footer One-->
 
-
-
-
-
-
-
-
-
     </div><!-- /.page-wrapper -->
 
-
-
+    <!-- Standard Mobile Nav -->
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
-
-            <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/mobilemenu_logo.png"
-                        width="155" alt="XpressLab Mobile Logo" /></a>
-            </div>
-            <!-- /.logo-box -->
+            <div class="logo-box"><a href="index.html" aria-label="logo image"><img src="assets/images/resources/mobilemenu_logo.png" width="155" alt="XpressLab Mobile Logo" /></a></div>
             <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-
             <ul class="mobile-nav__contact list-unstyled">
-                <li>
-                    <i class="icon-phone-call"></i>
-                    <a href="mailto:needhelp@xpresslab.org">needhelp@xpresslab.org</a>
-                </li>
-                <li>
-                    <i class="icon-letter"></i>
-                    <a href="tel:9292292917">929-229-2917</a>
-                </li>
-            </ul><!-- /.mobile-nav__contact -->
+                <li><i class="icon-phone-call"></i><a href="mailto:needhelp@xpresslab.org">needhelp@xpresslab.org</a></li>
+                <li><i class="icon-letter"></i><a href="tel:9292292917">929-229-2917</a></li>
+            </ul>
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                </div><!-- /.mobile-nav__social -->
-            </div><!-- /.mobile-nav__top -->
+                    <a href="#" class="fab fa-twitter"></a><a href="#" class="fab fa-facebook-square"></a><a href="#" class="fab fa-pinterest-p"></a><a href="#" class="fab fa-instagram"></a>
+                </div>
+            </div>
         </div>
-        <!-- /.mobile-nav__content -->
     </div>
-    <!-- /.mobile-nav__wrapper -->
 
-
-
+    <!-- Standard Search Popup -->
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
         <div class="search-popup__content">
             <form action="#">
-                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <label for="search" class="sr-only">search here</label>
                 <input type="text" id="search" placeholder="Search Projects or Skills..." />
-                <button type="submit" aria-label="search submit" class="thm-btn2">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
+                <button type="submit" aria-label="search submit" class="thm-btn2"><i class="fa fa-search" aria-hidden="true"></i></button>
             </form>
         </div>
-        <!-- /.search-popup__content -->
     </div>
-    <!-- /.search-popup -->
 
-
-
+    <!-- Standard Scroll-to-Top -->
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
-
+    <!-- Standard Scripts -->
     <script src="assets/vendors/jquery/jquery-3.5.1.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendors/jarallax/jarallax.min.js"></script>
@@ -1456,13 +715,8 @@
     <script src="assets/vendors/twentytwenty/twentytwenty.js"></script>
     <script src="assets/vendors/twentytwenty/jquery.event.move.js"></script>
     <script src="assets/vendors/parallax/parallax.min.js"></script>
-
-
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script> <!-- Note: API Key might need update -->
-
-    <!-- template js -->
+    
     <script src="assets/js/zilom.js"></script>
-
 
 </body>
 

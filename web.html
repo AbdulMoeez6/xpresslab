@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XpressLab | Training: Easy Web Updates on GitHub</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <meta name="description" content="Learn how to edit files and contribute to XpressLab projects directly on the GitHub website. Simple steps for beginners." />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
+    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/vendors/icomoon-icons/style.css">
+    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/vendors/twentytwenty/twentytwenty.css" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/zilom.css" />
+    <link rel="stylesheet" href="assets/css/zilom-responsive.css" />
+
+   
+    <style>
+        .guide-step {
+            margin-bottom: 50px; padding-bottom: 30px; border-bottom: 1px solid #eee;
+        }
+        .guide-step h3 {
+            font-size: 24px; font-weight: 700; margin-bottom: 20px; color: #333; display: flex; align-items: center;
+        }
+        .guide-step h3 .step-number {
+            display: inline-block; background-color: var(--zilom-primary); color: white; border-radius: 50%;
+            width: 35px; height: 35px; line-height: 35px; text-align: center; margin-right: 15px; font-size: 18px;
+        }
+        .guide-step p, .guide-step li { font-size: 17px; line-height: 1.8; color: #555; }
+        .guide-step ul { margin-top: 15px; margin-bottom: 15px; padding-left: 25px; list-style: disc; } /* Use standard bullets */
+        .guide-step li { margin-bottom: 10px; }
+        .guide-step code { background-color: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-family: monospace; color: #c7254e; }
+        .guide-step strong { font-weight: 600; color: #333; }
+        .guide-step .alert { padding: 15px; border-radius: 4px; margin-top: 15px; margin-bottom: 15px; border: 1px solid transparent; }
+        .guide-step .alert-info { background-color: #d1ecf1; color: #0c5460; border-color: #bee5eb; }
+        .guide-step .alert-warning { background-color: #fff3cd; color: #856404; border-color: #ffeeba; }
+        .guide-step img.step-image { max-width: 100%; height: auto; margin-top: 15px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .guide-step blockquote { background-color: #f9f9f9; border-left: 5px solid var(--zilom-primary); padding: 15px 20px; margin: 20px 0; font-style: italic; color: #444; }
+        .guide-step blockquote code { font-style: normal; display: block; white-space: pre-wrap; word-break: break-all; background-color: #e9e9e9; }
+        .content-section { padding: 120px 0; }
+        .content-section p { font-size: 18px; line-height: 1.8; color: #666; margin-bottom: 20px; }
+        .content-section h3 { font-size: 26px; font-weight: 700; color: #333; margin-top: 40px; margin-bottom: 25px; }
+        .click-target { /* Style to highlight clickable items */
+             color: var(--zilom-primary);
+             font-weight: 700;
+             border-bottom: 1px dashed var(--zilom-primary);
+             cursor: help; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="preloader">
+        <img class="preloader__image" width="60" src="assets/images/loader.png" alt="Loading Web Update Training" />
+    </div>
+
+    <div class="page-wrapper">
+
+        <header class="main-header main-header--one  clearfix">
+             
+             <div class="main-header--one__top clearfix">
+                <div class="container">
+                    <div class="main-header--one__top-inner clearfix">
+                        <div class="main-header--one__top-left">
+                            <div class="main-header--one__top-logo">
+                                <a href="index.html"><img src="assets/images/logo/xpresslab.svg" alt="XpressLab Logo - Experiential Learning Lab" style="max-height: 50px;" /></a>
+                            </div>
+                        </div>
+
+                        <div class="main-header--one__top-right clearfix">
+                            <ul class="main-header--one__top-social-link list-unstyled clearfix">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+
+                            <div class="main-header--one__top-contact-info clearfix">
+                                <ul class="main-header--one__top-contact-info-list list-unstyled">
+                                    <li class="main-header--one__top-contact-info-list-item">
+                                        <div class="icon">
+                                            <span class="icon-phone-call-1"></span>
+                                        </div>
+                                        <div class="text">
+                                            <h6>Call Support</h6>
+                                            <p><a href="tel:9292292917">929-229-2917</a></p>
+                                        </div>
+                                    </li>
+                                    <li class="main-header--one__top-contact-info-list-item">
+                                        <div class="icon">
+                                            <span class="icon-message"></span>
+                                        </div>
+                                        <div class="text">
+                                            <h6>Email Us</h6>
+                                            <p><a href="mailto:needhelp@xpresslab.org">needhelp@xpresslab.org</a></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="main-header-one__bottom clearfix">
+                <div class="container">
+                    <div class="main-header-one__bottom-inner clearfix">
+                        <nav class="main-menu main-menu--1">
+                            <div class="main-menu__inner">
+                                <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+
+                                <div class="left">
+                                    <ul class="main-menu__list">
+                                        <li><a href="about.html">About</a></li>
+                                        <li class="dropdown">
+                                            <a href="#">Contribute</a>
+                                            <ul>
+                                                <li><a href="projects.html">Projects</a></li>
+                                                <li><a href="project-guide.html">Project Guide</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown current"> 
+                                            <a href="#"> Learn</a>
+                                            <ul>
+                                                <li><a href="trainings.html">Training</a></li> 
+                                                <li><a href="resources.html">Resources</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#">Community</a>
+                                            <ul>
+                                                <li><a href="news.html">Updates & News</a></li>
+                                                <li><a href="stories.html">Success Stories</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="right">
+                                    <div class="main-menu__right">
+                                        <div class="main-menu__right-login-register">
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Login</a></li>
+                                                <li><a href="#">Sign Up</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="main-menu__right-cart-search">
+                                            <div class="main-menu__right-cart-box">
+                                                <a href="#"><span class="icon-shopping-cart"></span></a>
+                                            </div>
+                                            <div class="main-menu__right-search-box">
+                                                <a href="#" class="thm-btn search-toggler">Search Projects</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+             
+        </header>
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content">
+               
+            </div>
+        </div>
+
+        <!--Page Header Start-->
+        <section class="page-header">
+            <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/page-header-bg-learn.jpg);"></div>
+            <div class="container">
+                <div class="page-header__inner">
+                    <h2>Training: Making Changes Online</h2>
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="trainings.html">Training</a></li>
+                        <li><span>/</span></li>
+                        <li>Updates via Web</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--Page Header End-->
+
+        <!-- Web Update Training Content Start -->
+        <section class="content-section web-update-training">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+
+                        <div class="section-title text-center" style="margin-bottom: 60px;">
+                            <span class="section-title__tagline">Easy Contribution Method</span>
+                            <h2 class="section-title__title">How to Update Files on the GitHub Website</h2>
+                            <p>Welcome! This guide shows you the <strong>easiest</strong> way to change text in our projects. You don't need to download any special programs – you can do it all right here in your web browser on the GitHub website!</p>
+                            <p>This method is perfect for fixing typos, replacing "Lorem Ipsum" text, or making small updates.</p>
+                        </div>
+
+                        <!-- Prerequisites -->
+                        <div class="guide-step wow fadeInUp" data-wow-delay="100ms">
+                             <h3><span class="step-number">1</span>Get Ready: What You Need First</h3>
+                             <p>Before you start editing, make sure you have already done these things from the <a href="project-guide.html" target="_blank">Project Guide</a> or previous trainings:</p>
+                             <ul>
+                                 <li>You have a free <a href="https://github.com/join" target="_blank">GitHub account</a> and you are logged in.</li>
+                                 <li>You have found an XpressLab project on GitHub that has "Lorem Ipsum" text you want to replace.</li>
+                                 <li>You have created your <strong>own personal online copy</strong> of that project by clicking the <strong class="click-target">Fork</strong> button.</li>
+                             </ul>
+                             <p>If you haven't done these steps, please go back to the <a href="project-guide.html" target="_blank">Project Guide</a> first!</p>
+                             <div class="alert alert-info">
+                                <i class="fas fa-info-circle"></i> <strong>Remember:</strong> You always make changes in <strong>your copy (your fork)</strong> first, never directly in the original XpressLab project.
+                            </div>
+                        </div>
+
+                        <!-- Finding Your Fork -->
+                        <div class="guide-step wow fadeInUp" data-wow-delay="200ms">
+                             <h3><span class="step-number">2</span>Go to YOUR Copy (Your Fork)</h3>
+                             <p>Let's find your personal copy of the project on the GitHub website.</p>
+                             <ol>
+                                 <li>Go to the main GitHub website: <a href="https://github.com" target="_blank">github.com</a></li>
+                                 <li>Make sure you are logged in. You should see your profile picture or icon in the top-right corner.</li>
+                                 <li>Click on your profile picture/icon in the top-right corner. A menu will appear.</li>
+                                 <li>Click on <strong class="click-target">"Your repositories"</strong>.</li>
+                                 <!-- Add an image placeholder if helpful -->
+                                 <!-- <img src="assets/images/guide/your-repositories.png" alt="Finding 'Your repositories' link in GitHub profile menu" class="step-image"> -->
+                                 <li>You will see a list of projects. Find the one you "Forked" earlier (it will have the name you gave it, and might say "forked from..." below the name).</li>
+                                 <li>Click on the name of your forked project to open its page.</li>
+                             </ol>
+                             <p>You are now looking at your personal copy of the project!</p>
+                        </div>
+
+                        <!-- Selecting the gh-pages Branch -->
+                        <div class="guide-step wow fadeInUp" data-wow-delay="300ms">
+                             <h3><span class="step-number">3</span>Choose the Right Working Area (Branch: gh-pages)</h3>
+                             <p>Projects often have different working areas, like separate folders for different ideas. For the website changes, we usually work in an area called <strong class="click-target"><code>gh-pages</code></strong>.</p>
+                             <ol>
+                                 <li>On your forked project page, look near the top-left, below the project name. You should see a button that shows the current branch name (it might say <code>main</code> or something else, often with a <i class="fas fa-code-branch"></i> icon).</li>
+                                 <!-- Add an image placeholder if helpful -->
+                                 <!-- <img src="assets/images/guide/branch-button.png" alt="Location of the branch selection button on GitHub repository page" class="step-image"> -->
+                                 <li>Click on this branch button. A dropdown list will appear.</li>
+                                 <li>Look for <strong class="click-target"><code>gh-pages</code></strong> in the list and click on it.</li>
+                                 <li>The page will refresh. Now, make sure the button shows <strong class="click-target"><code>gh-pages</code></strong>.</li>
+                             </ol>
+                             <div class="alert alert-warning">
+                                 <i class="fas fa-exclamation-triangle"></i> <strong>Very Important:</strong> Always make sure you are in the <strong class="click-target"><code>gh-pages</code></strong> branch before you start editing files for website content! If you edit in the wrong branch, your changes might not show up correctly.
+                             </div>
+                        </div>
+
+
+                        <!-- Finding and Editing the File -->
+                        <div class="guide-step wow fadeInUp" data-wow-delay="400ms">
+                             <h3><span class="step-number">4</span>Find and Open the File to Edit</h3>
+                             <p>Now, let's find the specific page (file) you want to change the text on.</p>
+                             <ol>
+                                 <li>Look at the list of files and folders shown on the main part of the page (make sure you're still in the <code>gh-pages</code> branch!).</li>
+                                 <li>Website pages usually end with <strong class="click-target"><code>.html</code></strong> (for example: <code>index.html</code>, <code>about.html</code>, <code>contact.html</code>).</li>
+                                 <li>Find the <code>.html</code> file that you saw the "Lorem Ipsum" text in earlier (or the one you want to edit).</li>
+                                 <li>Click on the name of the file (e.g., click on <strong class="click-target"><code>index.html</code></strong>).</li>
+                                 <li>You will now see the content of that file. It will look like computer code.</li>
+                                 <li>Look near the top-right corner of the code view. You should see a small <strong class="click-target">pencil icon (<i class="fas fa-pencil-alt"></i>)</strong>. This is the "Edit" button.</li>
+                                  <!-- Add an image placeholder if helpful -->
+                                 <!-- <img src="assets/images/guide/edit-pencil-icon.png" alt="Location of the edit (pencil) icon on GitHub file view" class="step-image"> -->
+                                 <li>Click the <strong class="click-target">pencil icon (<i class="fas fa-pencil-alt"></i>)</strong>.</li>
+                             </ol>
+                             <p>You are now in the GitHub online editor! You can type directly into the text box that appears.</p>
+                        </div>
+
+                        <!-- Editing and Using AI -->
+                         <div class="guide-step wow fadeInUp" data-wow-delay="500ms">
+                             <h3><span class="step-number">5</span>Replace the "Lorem Ipsum" Text</h3>
+                             <p>Time to do the writing!</p>
+                             <ol>
+                                 <li>Scroll through the code in the editor box. Find the paragraphs that contain the "Lorem Ipsum" text.</li>
+                                 <li><strong>Select</strong> the entire chunk of "Lorem Ipsum" text you want to replace with your mouse (click and drag over the text).</li>
+                                 <li>You can either:
+                                     <ul>
+                                         <li><strong>Type your new text directly:</strong> Just start typing, and it will replace the selected "Lorem Ipsum".</li>
+                                         <li><strong>Use an AI Helper (Recommended):</strong>
+                                             <ol style="list-style: lower-alpha; margin-top: 10px;">
+                                                 <li>Open a <strong>new browser tab</strong> and go to your favorite AI tool (like ChatGPT).</li>
+                                                 <li>Ask the AI to rewrite the "Lorem Ipsum" text. You can use a simple prompt like:
+                                                    <blockquote><code>Please rewrite this placeholder text for a website about [briefly describe the project, e.g., 'startups' or 'home design']: "[Paste the Lorem Ipsum text here]"</code></blockquote>
+                                                    (Remember to replace the parts in square brackets!)
+                                                 </li>
+                                                 <li>Copy the <strong>new text</strong> the AI gives you.</li>
+                                                 <li>Go back to the GitHub editor tab.</li>
+                                                 <li>Make sure the old "Lorem Ipsum" text is still selected.</li>
+                                                 <li><strong>Paste</strong> the new text you copied from the AI (Tip: Press `Ctrl+V` on your keyboard).</li>
+                                             </ol>
+                                         </li>
+                                     </ul>
+                                 </li>
+                                 <li>Repeat this process for all the "Lorem Ipsum" sections you want to change in this file.</li>
+                             </ol>
+                             <div class="alert alert-warning">
+                                <i class="fas fa-exclamation-triangle"></i> <strong>Be Careful!</strong> Only change the text content. Try not to accidentally delete any of the strange symbols like <pre>
+    <code>&lt;p&gt;</code> or <code>&lt;/p&gt;</code> or <code>&lt;div&gt;</code>
+</pre>. These are HTML code tags that structure the page. Just replace the words between them.
+                            </div>
+                         </div>
+
+                         <!-- Preview and Commit -->
+                         <div class="guide-step wow fadeInUp" data-wow-delay="600ms">
+                             <h3><span class="step-number">6</span>Check and Save Your Changes (Commit)</h3>
+                             <p>Once you've replaced the text, let's save your work.</p>
+                             <ol>
+                                 <li>Near the top of the editor, you might see a tab called <strong class="click-target">"Preview changes"</strong>. Click it to get a rough idea of how your changes look. (It might not look exactly like the final website here). Click back to the <strong class="click-target">"Edit file"</strong> tab when done previewing.</li>
+                                 <li>Scroll down below the editor box. You will see a section called <strong class="click-target">"Commit changes"</strong>.</li>
+                                 <li>There are two text boxes here.
+                                     <ul>
+                                         <li>The <strong>first (larger) box</strong> is for a short title for your save. Type something simple that describes what you did. Examples:
+                                            <code>Update homepage text</code>
+                                            <code>Replace Lorem Ipsum on About page</code>
+                                            <code>Fix typo in contact section</code>
+                                         </li>
+                                         <li>The <strong>second (smaller) box</strong> is optional. You can add more details if you want, but the title is usually enough for simple text changes.</li>
+                                     </ul>
+                                 </li>
+                                  <!-- Add an image placeholder if helpful -->
+                                 <!-- <img src="assets/images/guide/commit-changes-section.png" alt="GitHub commit changes section below the editor" class="step-image"> -->
+                                 <li>Below the text boxes, make sure the option <strong class="click-target">"Commit directly to the <code>gh-pages</code> branch."</strong> is selected. (It usually is by default).</li>
+                                 <li>Click the green button that says <strong class="click-target">"Commit changes"</strong>.</li>
+                             </ol>
+                             <p>Great! You have successfully saved your changes to your personal copy (your fork) of the project on GitHub.</p>
+                         </div>
+
+
+                        <!-- Next Steps -->
+                        <div class="guide-step text-center wow fadeInUp" data-wow-delay="700ms" style="border-bottom: none;">
+                            <h3><span class="step-number">7</span>What's Next? The Pull Request!</h3>
+                            <p>You've updated the file on <strong>your copy</strong> of the project. Now you need to tell the original XpressLab project owners about your changes so they can add them to the main project.</p>
+                            <p>This next step is called creating a <strong class="click-target">"Pull Request" (PR)</strong>. You learned about this in the GitHub Basics training. You essentially send a request saying "Please pull my changes into your project!"</p>
+                            <p>Go back to the main page of <strong>your forked repository</strong> on GitHub. You might see a yellow bar suggesting you create a Pull Request. Follow the steps outlined in the <a href="project-guide.html#step-8-submit-a-pull-request-pr" target="_blank">Project Guide (Step 8)</a> to submit your Pull Request correctly (remembering to compare the <code>gh-pages</code> branches!).</p>
+
+                            <hr style="margin: 40px 0;">
+
+                            <h4>You've learned the easiest way to contribute!</h4>
+                            <p>This method of editing directly on the GitHub website is fantastic for quick text changes. For more complex work, you might explore using VS Code later.</p>
+                            <a href="trainings.html" class="thm-btn__link" style="font-size: 16px; margin-top: 20px;">Back to Training Hub</a>
+                        </div>
+
+                    </div> <!-- /.col-lg-10 -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </section>
+        <!-- Web Update Training Content End -->
+
+
+        <!--Start Footer One-->
+        <footer class="footer-one">
+              <div class="footer-one__bg" style="background-image: url(assets/images/backgrounds/footer-v1-bg.jpg);">
+            </div><!-- /.footer-one__bg -->
+            <div class="footer-one__top">
+                <div class="container">
+                    <div class="row">
+                        <!--Start Footer Widget Column-->
+                        <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.1s">
+                            <div class="footer-widget__column footer-widget__about">
+                                <div class="footer-widget__about-logo">
+                                    <!-- <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt="XpressLab Footer Logo"></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Footer Widget Column-->
+
+                        <!--Start Footer Widget Column-->
+                        <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.3s">
+                            <div class="footer-widget__column footer-widget__courses">
+                                <h3 class="footer-widget__title">Explore</h3>
+                                <ul class="footer-widget__courses-list list-unstyled">
+                                    <li><a href="projects.html">Find Projects</a></li>
+                                    <li><a href="trainings.html">Learning Paths</a></li>
+                                    <li><a href="project-guide.html">Contribution Guides</a></li>
+                                    <li><a href="resources.html">Skill Development</a></li>
+                                    <li><a href="news.html">Community Forum</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End Footer Widget Column-->
+
+                        <!--Start Footer Widget Column-->
+                        <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.5s">
+                            <div class="footer-widget__column footer-widget__links">
+                                <h3 class="footer-widget__title">Quick Links</h3>
+                                <ul class="footer-widget__links-list list-unstyled">
+                                    <li><a href="about.html">About XpressLab</a></li>
+                                    <li><a href="resources.html">Resources</a></li>
+                                    <li><a href="trainings.html">Training</a></li>
+                                    <li><a href="contact.html">Join Our Team</a></li>
+                                    <li><a href="news.html">Updates & News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End Footer Widget Column-->
+
+                        <!--Start Footer Widget Column-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.7s">
+                            <div class="footer-widget__column footer-widget__contact">
+                                <h3 class="footer-widget__title">Contact</h3>
+                                <p class="text">Based in New York, USA</p>
+                                <p><a href="mailto:needhelp@xpresslab.org">needhelp@xpresslab.org</a></p>
+                                <p class="phone"><a href="tel:9292292917">929-229-2917</a></p>
+                            </div>
+                        </div>
+                        <!--End Footer Widget Column-->
+
+                        <!--Start Footer Widget Column-->
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.9s">
+                            <div class="footer-widget__column footer-widget__social-links">
+                                <h3 class="footer-widget__title">Connect</h3>
+                                <ul class="footer-widget__social-links-list list-unstyled clearfix">
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End Footer Widget Column-->
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Start Footer One Bottom-->
+            <div class="footer-one__bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="footer-one__bottom-inner">
+                                <div class="footer-one__bottom-text text-center">
+                                    <p>© Copyright 2025 by xpresslab.org</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Footer One Bottom-->
+             
+        </footer>
+        <!--End Footer One-->
+
+    </div><!-- /.page-wrapper -->
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/mobilemenu_logo.png"
+                        width="155" alt="XpressLab Mobile Logo" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="icon-phone-call"></i>
+                    <a href="mailto:needhelp@xpresslab.org">needhelp@xpresslab.org</a>
+                </li>
+                <li>
+                    <i class="icon-letter"></i>
+                    <a href="tel:9292292917">929-229-2917</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Projects or Skills..." />
+                <button type="submit" aria-label="search submit" class="thm-btn2">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+    <!-- END Mobile Nav, Search Popup, Scroll To Top PASTE SECTION -->
+
+
+    
+     <script src="assets/vendors/jquery/jquery-3.5.1.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/twentytwenty/twentytwenty.js"></script>
+    <script src="assets/vendors/twentytwenty/jquery.event.move.js"></script>
+    <script src="assets/vendors/parallax/parallax.min.js"></script>
+
+    <!-- template js -->
+    <script src="assets/js/zilom.js"></script>
+     <!-- END JS Scripts PASTE SECTION -->
+
+</body>
+
+</html>
